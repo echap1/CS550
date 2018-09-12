@@ -2,7 +2,7 @@ Question 1:
 	a//b still equals np.floor(a/b), even when the sign is negative. 
 	However, since np.floor(1.5) = 1 and np.floor(-1.5) = -2, a//b != np.abs(-a//b)
 
-Question 2:
+Question 2 (Interval Notation):
 	a) [0, 2]
 	b) [0, 34]
 	c) [0, n - 1]
@@ -16,6 +16,6 @@ Question 4:
 	b) because by adding the decimal point, you are casting the number as a float
 	
 Question 5:
-	a) str(4) is casting 4 as a string
+	a) str(4) is casting 4 as a string, thus converting it to '4'
 	b) int('a') is trying to cast 'a' as an integer, but errors because there is no way to convert 'a' to an integer
 	
