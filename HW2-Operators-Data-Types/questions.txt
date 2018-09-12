@@ -1,0 +1,21 @@
+Question 1:
+	a//b still equals np.floor(a/b), even when the sign is negative. 
+	However, since np.floor(1.5) = 1 and np.floor(-1.5) = -2, a//b != np.abs(-a//b)
+
+Question 2:
+	a) [0, 2]
+	b) [0, 34]
+	c) [0, n - 1]
+
+Question 3:
+	a) a**b = pow(a, b)
+	b) I knew this from a previous python class
+	
+Question 4:
+	a) type(x) tells you the variable type of x
+	b) because by adding the decimal point, you are casting the number as a float
+	
+Question 5:
+	a) str(4) is casting 4 as a string
+	b) int('a') is trying to cast 'a' as an integer, but errors because there is no way to convert 'a' to an integer
+	
