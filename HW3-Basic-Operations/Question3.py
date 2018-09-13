@@ -1,5 +1,5 @@
 '''
-CS550 Homework: Basic Operations - Question 1
+CS550 Homework: Basic Operations - Question 3 (Day of Week)
 Due September 13, 2018
 
 @author: Ethan Chapman
