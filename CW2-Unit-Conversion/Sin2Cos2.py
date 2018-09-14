@@ -1,6 +1,6 @@
 '''
 CS550 Classwork: Unit Conversion
-Due September 10, 2018
+September 10, 2018
 
 @author: Ethan Chapman
 '''
