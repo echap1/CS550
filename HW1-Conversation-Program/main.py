@@ -1,4 +1,4 @@
-'''
+"""
 CS550 Homework: Conversation Program
 Due September 10, 2018
 
@@ -6,7 +6,7 @@ Due September 10, 2018
 
 Sources:
 
-'''
+"""
 
 import random
 

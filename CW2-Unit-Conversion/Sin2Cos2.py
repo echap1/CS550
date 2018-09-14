@@ -1,9 +1,9 @@
-'''
+"""
 CS550 Classwork: Unit Conversion
 September 10, 2018
 
 @author: Ethan Chapman
-'''
+"""
 
 import random
 import numpy as np

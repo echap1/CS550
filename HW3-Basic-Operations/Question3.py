@@ -1,9 +1,9 @@
-'''
+"""
 CS550 Homework: Basic Operations - Question 3 (Day of Week)
 Due September 14, 2018
 
 @author: Ethan Chapman
-'''
+"""
 
 import commandLine
 

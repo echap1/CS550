@@ -1,9 +1,9 @@
-'''
+"""
 CS550 Homework: Basic Operations - Question 2 (XYZ)
 Due September 14, 2018
 
 @author: Ethan Chapman
-'''
+"""
 
 import commandLine
 

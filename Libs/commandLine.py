@@ -1,8 +1,8 @@
-'''
+"""
 Command Line Input Library
 
 @author: Ethan Chapman
-'''
+"""
 
 import sys
 import os
@@ -26,7 +26,7 @@ class commandLine:
     def setNoteStr(self, s):
         self.note = s
     
-        self.note = "    " + note
+        self.note = "    " + self.note
         self.note = self.note.replace("\n", "\n    ")
         
     def getArgValues(self):

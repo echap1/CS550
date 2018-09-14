@@ -1,9 +1,9 @@
-'''
+"""
 CS550 Classwork: Continuous Interest
 September 14, 2018
 
 @author: Ethan Chapman
-'''
+"""
 
 import numpy as np
 

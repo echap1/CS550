@@ -1,9 +1,9 @@
-'''
+"""
 CS550 Homework: Basic Operations - Question 1 (Wind Chill)
 Due September 14, 2018
 
 @author: Ethan Chapman
-'''
+"""
 
 import numpy as np
 

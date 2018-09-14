@@ -1,4 +1,4 @@
-'''
+"""
 CS550 Classwork: Commands
 September 10, 2018
 
@@ -11,7 +11,7 @@ Bonus Questions:
     1: The Working Directory
     2: len(sys.argv) - 1
     3: More - Ignored, Fewer - Errors
-'''
+"""
 
 import sys
 
