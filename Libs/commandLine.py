@@ -7,68 +7,66 @@ Command Line Input Library
 import sys
 import os
 
-class commandLine:
+
+class CommandLine:
     argNames = []
     argTypes = []
     argDescs = []
-    
+
     file = None
     note = None
-    
+
     def __init__(self, file):
         self.file = file
-        
-    def addArg(self, name, type, desc):
+
+    def add_argument(self, name, var_type, desc):
         self.argNames += [name]
-        self.argTypes += [type]
+        self.argTypes += [var_type]
         self.argDescs += [desc]
-    
-    def setNoteStr(self, s):
+
+    def set_note(self, s):
         self.note = s
-    
+
         self.note = "    " + self.note
         self.note = self.note.replace("\n", "\n    ")
-        
-    def getArgValues(self):
+
+    def get_arg_values(self):
         arguments = sys.argv
         arguments.pop(0)
-        
+
         res = []
-        
+
         if len(arguments) < len(self.argNames):
-            self.printHelpStr()
+            self.print_help_str()
             exit()
-        
+
         try:
             for i in range(len(self.argNames)):
                 res += [self.argTypes[i](arguments[i])]
         except:
             print("Invalid Values!\n")
-            self.printHelpStr()
+            self.print_help_str()
             exit()
-            
+
         return res
-        
-    def setProgramFile(self, f):
-        global file
-        
-        file = f
-        
-    def getNameStr(self):
+
+    def set_program_file(self, f):
+        self.file = f
+
+    def get_name_str(self):
         return "python3 " + os.path.basename(os.path.realpath(self.file))
-    
-    def printHelpStr(self):
-        argStr = " "
-        argHelpStr = ""
-        
+
+    def print_help_str(self):
+        arg_str = " "
+        arg_help_str = ""
+
         for i in range(len(self.argNames)):
-            argStr += self.argNames[i] + " "
-            argHelpStr += "\n    " + self.argNames[i] + " - " + self.argDescs[i]
-        
-        print("Usage: " + self.getNameStr() + argStr)
-        print("\nArguments:" + argHelpStr)
-        
-        if self.note != None:
+            arg_str += self.argNames[i] + " "
+            arg_help_str += "\n    " + self.argNames[i] + " - " + self.argDescs[i]
+
+        print("Usage: " + self.get_name_str() + arg_str)
+        print("\nArguments:" + arg_help_str)
+
+        if self.note is not None:
             print("\nNotes:")
             print(self.note)
-        

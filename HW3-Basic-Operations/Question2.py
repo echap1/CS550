@@ -7,15 +7,17 @@ Due September 14, 2018
 
 import commandLine
 
+
 def main():
-    cl = commandLine.commandLine(__file__)
-    
-    cl.addArg("X", float, "First Number")
-    cl.addArg("Y", float, "Second Number")
-    cl.addArg("Z", float, "Third Number")
-    
-    [x, y, z] = cl.getArgValues()
-    
+    cl = commandLine.CommandLine(__file__)
+
+    cl.add_argument("X", float, "First Number")
+    cl.add_argument("Y", float, "Second Number")
+    cl.add_argument("Z", float, "Third Number")
+
+    [x, y, z] = cl.get_arg_values()
+
     print(x < y < z or x > y > z)
-    
+
+
 main()
