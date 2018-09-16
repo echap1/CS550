@@ -10,6 +10,7 @@
       <sourceFolder url="file://$MODULE_DIR$/HW2-Operators-Data-Types" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/HW3-Basic-Operations" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/libs" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/HW4-If-Statements" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

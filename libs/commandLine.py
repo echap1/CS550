@@ -50,9 +50,6 @@ class CommandLine:
 
         return res
 
-    def set_program_file(self, f):
-        self.file = f
-
     def get_name_str(self):
         return "python3 " + os.path.basename(os.path.realpath(self.file))
 
