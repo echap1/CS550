@@ -16,9 +16,9 @@ import numpy as np
 def main():
     cl = CommandLine(__file__)
 
-    cl.add_argument("P", float, "Principal (Starting Value)")
-    cl.add_argument("R", float, "Interest Rate")
-    cl.add_argument("T", float, "Time (y)")
+    cl.add_argument("P", Argument(float), "Principal (Starting Value)")
+    cl.add_argument("R", Argument(float), "Interest Rate")
+    cl.add_argument("T", Argument(float), "Time (y)")
 
     [p, r, t] = cl.get_arg_values()
 

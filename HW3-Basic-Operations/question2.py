@@ -14,9 +14,9 @@ from libs.commandLine import *
 def main():
     cl = CommandLine(__file__)
 
-    cl.add_argument("X", float, "First Number")
-    cl.add_argument("Y", float, "Second Number")
-    cl.add_argument("Z", float, "Third Number")
+    cl.add_argument("X", Argument(float), "First Number")
+    cl.add_argument("Y", Argument(float), "Second Number")
+    cl.add_argument("Z", Argument(float), "Third Number")
 
     [x, y, z] = cl.get_arg_values()
 

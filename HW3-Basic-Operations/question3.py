@@ -14,9 +14,9 @@ from libs.commandLine import *
 def main():
     cl = CommandLine(__file__)
 
-    cl.add_argument("MONTH", float, "A number representing the month (ex. 1 for January, 2 for Febuary)")
-    cl.add_argument("DAY", float, "The day of the year")
-    cl.add_argument("YEAR", float, "The year")
+    cl.add_argument("MONTH", Argument(int, lambda x: 1 <= x <= 12), "A number representing the month (ex. 1 for January, 2 for Febuary)")
+    cl.add_argument("DAY", Argument(int, lambda x: 1 <= x <= 31), "The day of the year")
+    cl.add_argument("YEAR", Argument(int), "The year")
 
     [m, d, y] = cl.get_arg_values()
 

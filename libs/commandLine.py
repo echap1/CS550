@@ -7,11 +7,28 @@ Command Line Input Library
 import sys
 import os
 
+from typing import List
+
+
+class Argument:
+    argType: type = None
+    validityFunction = None
+
+    def __init__(self, arg_type: type, validity_function=lambda x: True):
+        self.argType = arg_type
+        self.validityFunction = validity_function
+
+    def get_type(self):
+        return self.argType
+
+    def get_validity_function(self):
+        return self.validityFunction
+
 
 class CommandLine:
-    argNames = []
-    argTypes = []
-    argDescs = []
+    argNames: List[str] = []
+    argTypes: List[Argument] = []
+    argDescs: List[str] = []
 
     file = None
     note = None
@@ -34,7 +51,7 @@ class CommandLine:
         arguments = sys.argv
         arguments.pop(0)
 
-        res = []
+        res: List[str] = []
 
         if len(arguments) < len(self.argNames):
             self.print_help_str()
@@ -42,8 +59,15 @@ class CommandLine:
 
         try:
             for i in range(len(self.argNames)):
-                res += [self.argTypes[i](arguments[i])]
-        except:
+                res += [self.argTypes[i].get_type()(arguments[i])]
+
+                if not self.argTypes[i].get_validity_function()(res[len(res) - 1]):
+                    print("Values Not In Range!\n")
+                    self.print_help_str()
+                    exit()
+
+
+        except ValueError:
             print("Invalid Values!\n")
             self.print_help_str()
             exit()
