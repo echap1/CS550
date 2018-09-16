@@ -6,6 +6,7 @@ September 10, 2018
 """
 
 import random
+
 import numpy as np
 
 

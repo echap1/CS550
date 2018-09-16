@@ -5,11 +5,14 @@ Due September 14, 2018
 @author: Ethan Chapman
 """
 
-import commandLine
+import sys
+sys.path.append("..")
+
+from libs.commandLine import *
 
 
 def main():
-    cl = commandLine.CommandLine(__file__)
+    cl = CommandLine(__file__)
 
     cl.add_argument("X", float, "First Number")
     cl.add_argument("Y", float, "Second Number")

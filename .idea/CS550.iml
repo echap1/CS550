@@ -9,7 +9,7 @@
       <sourceFolder url="file://$MODULE_DIR$/HW1-Conversation-Program" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/HW2-Operators-Data-Types" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/HW3-Basic-Operations" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Libs" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libs" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

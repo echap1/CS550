@@ -5,13 +5,14 @@ Due September 14, 2018
 @author: Ethan Chapman
 """
 
-import numpy as np
+import sys
+sys.path.append("..")
 
-import commandLine
+from libs.commandLine import *
 
 
 def main():
-    cl = commandLine.CommandLine(__file__)
+    cl = CommandLine(__file__)
 
     cl.add_argument("TEMPERATURE", float, "Temperature (°F)")
     cl.add_argument("WINDSPEED", float, "Wind Speed (mi/h)")

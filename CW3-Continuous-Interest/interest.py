@@ -5,13 +5,16 @@ September 14, 2018
 @author: Ethan Chapman
 """
 
-import numpy as np
+import sys
+sys.path.append("..")
 
-import commandLine
+from libs.commandLine import *
+
+import numpy as np
 
 
 def main():
-    cl = commandLine.CommandLine(__file__)
+    cl = CommandLine(__file__)
 
     cl.add_argument("P", float, "Principal (Starting Value)")
     cl.add_argument("R", float, "Interest Rate")
