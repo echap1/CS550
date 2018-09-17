@@ -12,6 +12,7 @@
       <sourceFolder url="file://$MODULE_DIR$/libs" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/HW4-If-Statements" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Test Programs" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/CW4-Number-Game" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
