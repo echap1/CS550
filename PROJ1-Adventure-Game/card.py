@@ -1,11 +1,12 @@
 from typing import List
+from termcolor import colored
 
 import random
 
 
 class Card:
     SUITS = ["Hearts", "Diamonds", "Spades", "Clubs"]
-    COLORS = ["red", "red", "black", "black"]
+    COLORS = ["red",   "red",      "black",  "black"]
     VALUES = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "J", "Q", "K"]
 
     suit: int
@@ -16,7 +17,10 @@ class Card:
         self.value = value
 
     def __str__(self):
-        return Card.VALUES[self.value] + " of " + Card.SUITS[self.suit]
+        if Card.COLORS[self.suit] == "black":
+            return colored(Card.VALUES[self.value] + " of " + Card.SUITS[self.suit], attrs=["bold"])
+
+        return colored(Card.VALUES[self.value] + " of " + Card.SUITS[self.suit], Card.COLORS[self.suit], attrs=["bold"])
 
 
 class Deck:
@@ -28,20 +32,7 @@ class Deck:
                 self.cards.append(Card(i, j))
 
     def shuffle(self):
-        new_cards: List[Card] = []
-        chosen: List[int] = []
-
-        for i in range(len(self.cards)):
-            while True:
-                i = random.randint(0, len(self.cards) - 1)
-
-                if i in chosen:
-                    break
-
-                new_cards.append(self.cards[i])
-                chosen.append(i)
-
-        self.cards = new_cards
+        random.shuffle(self.cards)
 
     def get_cards(self):
         return self.cards

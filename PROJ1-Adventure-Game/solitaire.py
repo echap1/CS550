@@ -1,21 +1,10 @@
 import sys
 sys.path.append("..")
 
-from typing import List
+from display import Display
 
-from card import Card, Deck
+import game
 
-deck = Deck()
-deck.shuffle()
+[deck, hand, piles] = game.setup()
 
-unplacedCards = deck.get_cards()
-
-piles: List[List[Card]] = []
-pileNum = 7
-
-for i in range(pileNum):
-    piles.append([])
-    pileLen = i + 1
-
-    for j in range(pileLen):
-        piles[i].append(unplacedCards.pop())
+Display.display(deck, hand, piles)

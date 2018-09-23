@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6c30f360-7b75-44b4-b1d4-2fde35f5dc0b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/CS550.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/CS550.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PROJ1-Adventure-Game/card.py" beforeDir="false" afterPath="$PROJECT_DIR$/PROJ1-Adventure-Game/card.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PROJ1-Adventure-Game/display.py" beforeDir="false" afterPath="$PROJECT_DIR$/PROJ1-Adventure-Game/display.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PROJ1-Adventure-Game/solitaire.py" beforeDir="false" afterPath="$PROJECT_DIR$/PROJ1-Adventure-Game/solitaire.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -50,36 +52,36 @@
     <session id="418741397">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="10" />
+          <entry key="project.closed" value="12" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.3" value="1" />
-          <entry key="project.open.time.4" value="5" />
-          <entry key="project.open.time.5" value="2" />
+          <entry key="project.open.time.4" value="6" />
+          <entry key="project.open.time.5" value="3" />
           <entry key="project.open.time.6" value="1" />
-          <entry key="project.opened" value="10" />
+          <entry key="project.opened" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="39" />
+          <entry key="py" value="47" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Python" value="39" />
+          <entry key="Python" value="47" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="Python Console" value="713" />
+          <entry key="Python Console" value="1083" />
           <entry key="dummy" value="85" />
-          <entry key="py" value="7671" />
+          <entry key="py" value="9716" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="85" />
-          <entry key="Python" value="8384" />
+          <entry key="Python" value="10799" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
@@ -87,38 +89,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="600">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/PROJ1-Adventure-Game/solitaire.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="10" lean-forward="true" selection-start-column="10" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/PROJ1-Adventure-Game/display.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1305">
-              <caret line="45" column="27" selection-start-line="45" selection-start-column="27" selection-end-line="45" selection-end-column="27" />
-              <folding>
-                <element signature="e#0#29#0" expanded="true" />
-                <marker date="1537541483846" expanded="true" signature="85:206" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PROJ1-Adventure-Game/card.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="203">
-              <caret line="7" column="34" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
-              <folding>
-                <element signature="e#0#23#0" expanded="true" />
-                <marker date="1537541230409" expanded="true" signature="52:57" ph="..." />
-                <marker date="1537541230409" expanded="true" signature="490:495" ph="..." />
-              </folding>
+            <state relative-caret-position="261">
+              <caret line="9" column="34" lean-forward="true" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -168,9 +143,10 @@
         <option value="$PROJECT_DIR$/HW5-Number-Game/number.py" />
         <option value="$PROJECT_DIR$/libs/varInput.py" />
         <option value="$PROJECT_DIR$/PROJ1-Adventure-Game/adventure.py" />
-        <option value="$PROJECT_DIR$/PROJ1-Adventure-Game/solitaire.py" />
         <option value="$PROJECT_DIR$/PROJ1-Adventure-Game/card.py" />
+        <option value="$PROJECT_DIR$/PROJ1-Adventure-Game/game.py" />
         <option value="$PROJECT_DIR$/PROJ1-Adventure-Game/display.py" />
+        <option value="$PROJECT_DIR$/PROJ1-Adventure-Game/solitaire.py" />
       </list>
     </option>
   </component>
@@ -224,7 +200,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///media/OneDrive/OneDrive/Coding/CS550/libs/basicCommandLine.py" />
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///media/OneDrive/OneDrive/Coding/CS550/PROJ1-Adventure-Game/solitaire.py" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
@@ -304,12 +280,12 @@
   <component name="ToolWindowManager">
     <frame x="0" y="-12" width="3414" height="2066" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.17062314" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17062314" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32945737" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3482835" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32779622" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39977852" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -456,33 +432,59 @@
         </state>
       </provider>
     </entry>
+    <entry file="file:///usr/lib/python3.6/code.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="301">
+          <caret line="90" selection-start-line="90" selection-end-line="90" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/PROJ1-Adventure-Game/card.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="203">
-          <caret line="7" column="34" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
+          <caret line="7" column="9" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
           <folding>
             <element signature="e#0#23#0" expanded="true" />
-            <marker date="1537541230409" expanded="true" signature="52:57" ph="..." />
-            <marker date="1537541230409" expanded="true" signature="490:495" ph="..." />
+            <marker date="1537677236437" expanded="true" signature="82:87" ph="..." />
+            <marker date="1537677236437" expanded="true" signature="390:396" ph="..." />
+            <marker date="1537677236437" expanded="true" signature="725:730" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PROJ1-Adventure-Game/game.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="696">
+          <caret line="24" column="33" selection-start-line="24" selection-start-column="33" selection-end-line="24" selection-end-column="33" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.local/lib/python3.6/site-packages/numpy/core/fromnumeric.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="386">
+          <caret line="82" selection-start-line="82" selection-end-line="82" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PROJ1-Adventure-Game/display.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="58">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+            <marker date="1537677649586" expanded="true" signature="156:256" ph="..." />
+            <marker date="1537677649586" expanded="true" signature="1653:1659" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/PROJ1-Adventure-Game/solitaire.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="10" lean-forward="true" selection-start-column="10" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PROJ1-Adventure-Game/display.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1305">
-          <caret line="45" column="27" selection-start-line="45" selection-start-column="27" selection-end-line="45" selection-end-column="27" />
-          <folding>
-            <element signature="e#0#29#0" expanded="true" />
-            <marker date="1537541483846" expanded="true" signature="85:206" ph="..." />
-          </folding>
+        <state relative-caret-position="261">
+          <caret line="9" column="34" lean-forward="true" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
         </state>
       </provider>
     </entry>
