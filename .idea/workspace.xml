@@ -1,18 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6c30f360-7b75-44b4-b1d4-2fde35f5dc0b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/PROJ1-Solitaire/card.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PROJ1-Solitaire/game.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PROJ1-Solitaire/solitaire.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/CS550.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/CS550.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PROJ1-Adventure-Game/card.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PROJ1-Adventure-Game/display.py" beforeDir="false" afterPath="$PROJECT_DIR$/PROJ1-Solitaire/display.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PROJ1-Adventure-Game/game.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PROJ1-Adventure-Game/solitaire.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libs/varInput.py" beforeDir="false" afterPath="$PROJECT_DIR$/libs/varInput.py" afterDir="false" />
-    </list>
+    <list default="true" id="6c30f360-7b75-44b4-b1d4-2fde35f5dc0b" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +47,7 @@
     <session id="418741397">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="12" />
+          <entry key="project.closed" value="13" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.4" value="7" />
@@ -332,14 +321,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="-12" width="3414" height="2066" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17062314" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32945737" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.358804" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.358804" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39977852" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
