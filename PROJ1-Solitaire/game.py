@@ -1,4 +1,6 @@
-import os, sys, inspect
+import os
+import sys
+import inspect
 
 current_dir = os.path.dirname(os.path.abspath(inspect.getfile(inspect.currentframe())))
 parent_dir = os.path.dirname(current_dir)
@@ -22,8 +24,8 @@ class Game:
     piles: List[List[Card]]
     finished: List[int]
 
-    inputStrings = {"D": "Deck",
-                    "H": "Hand",
+    inputStrings = {"D": "(D)eck",
+                    "H": "(H)and",
                     "R": "(R (0-" + str(PILES) + ") (Pile Position))",
                     "F": "(F)inished"}
 
@@ -152,20 +154,33 @@ class Game:
 
         pile_num = pile_loc.pile_index
 
-        card1 = self.hand.pop()
-        card2 = self.piles[pile_num].pop()
+        if len(self.piles[pile_num]) == 0:
+            if self.hand[-1].value == len(Card.VALUES) - 1:
+                card = self.hand.pop()
+                card.visible = True
 
-        if (Card.COLORS[card1.suit] != Card.COLORS[card2.suit] and
-                card1.value + 1 == card2.value):
-            self.piles[pile_num] += [card2, card1]
+                self.piles[pile_num] += [card]
 
-            print("Success!")
+                print("Success")
+
+            else:
+                print("Invalid Move!")
 
         else:
-            print("Invalid Move!")
+            card1 = self.hand.pop()
+            card2 = self.piles[pile_num].pop()
 
-            self.hand += [card1]
-            self.piles[pile_num] += [card2]
+            if (Card.COLORS[card1.suit] != Card.COLORS[card2.suit] and
+                    card1.value + 1 == card2.value):
+                self.piles[pile_num] += [card2, card1]
+
+                print("Success!")
+
+            else:
+                print("Invalid Move!")
+
+                self.hand += [card1]
+                self.piles[pile_num] += [card2]
 
     def move_pile_finished(self, pile_loc):
         finished_card = self.piles[pile_loc.pile_index].pop()

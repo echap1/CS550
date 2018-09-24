@@ -6,10 +6,10 @@ Due September 24, 2018
 
 Dependencies:
     termcolor - package for changing the console colors
+    pyparsing - parsing colored strings
 """
 
 from display import Display
-
 from game import Game
 
 game = Game()
