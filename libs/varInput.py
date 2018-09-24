@@ -10,15 +10,13 @@ class VarInput(object):
             input_val = var_type(input_str)
 
         except ValueError:
-            self.invalidHandler(input_str, [message, var_type, validity_function], True)
-            return None
+            return self.invalidHandler(input_str, [message, var_type, validity_function], True)
 
         if not validity_function(input_val):
-            self.invalidHandler(input_str, [message, var_type, validity_function], False)
-            return None
+            return self.invalidHandler(input_str, [message, var_type, validity_function], False)
 
         return input_val
 
-    def __default_handler(self, value, params, valueError):
+    def __default_handler(self, value, params, value_error):
         print("Value Invalid!")
         return self.input(*params)

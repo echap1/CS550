@@ -2,19 +2,19 @@
 <module type="PYTHON_MODULE" version="4">
   <component name="NewModuleRootManager">
     <content url="file://$MODULE_DIR$">
-      <sourceFolder url="file://$MODULE_DIR$" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/CW1-Command-Line-Arguments" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/CW2-Unit-Conversion" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/CW3-Continuous-Interest" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/HW1-Conversation-Program" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/HW2-Operators-Data-Types" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/HW3-Basic-Operations" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/libs" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/HW4-If-Statements" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Test Programs" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/CW4-Number-Game" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/PROJ1-Adventure-Game" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/PROJ1-Solitaire" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/HW5-Number-Game" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libs" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$" isTestSource="false" />
     </content>
     <orderEntry type="jdk" jdkName="Python 3.6" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
