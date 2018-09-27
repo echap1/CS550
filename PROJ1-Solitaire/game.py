@@ -2,9 +2,7 @@ import os
 import sys
 import inspect
 
-current_dir = os.path.dirname(os.path.abspath(inspect.getfile(inspect.currentframe())))
-parent_dir = os.path.dirname(current_dir)
-sys.path.insert(0, parent_dir)
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(inspect.getfile(inspect.currentframe())))))
 
 from typing import List
 from termcolor import colored
@@ -183,6 +181,10 @@ class Game:
                 self.piles[pile_num] += [card2]
 
     def move_pile_finished(self, pile_loc):
+        if len(self.piles[pile_loc.pile_index]) == 0:
+            print("Invalid Move!")
+            return
+
         finished_card = self.piles[pile_loc.pile_index].pop()
 
         if self.finished[finished_card.suit] == finished_card.value:

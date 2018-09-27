@@ -15,6 +15,9 @@
       <sourceFolder url="file://$MODULE_DIR$/HW5-Number-Game" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/libs" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/CW5-Lists" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/CardGame" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/HW6-Challenge-Questions" isTestSource="false" />
     </content>
     <orderEntry type="jdk" jdkName="Python 3.6" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
