@@ -14,6 +14,6 @@ Due September 10, 2018
 """
 
 import random
+from collections import Counter
 
-first_digits = sorted([int(str(n)[0]) for n in random.sample(range(100, 1000), 100)])
-[print(str(i) + " occured " + str(first_digits.count(i)) + " times") for i in range(1, 10)]
+print(dict(Counter(sorted([int(str(n)[0]) for n in random.sample(range(100, 1000), 100)]))))

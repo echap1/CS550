@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6c30f360-7b75-44b4-b1d4-2fde35f5dc0b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/CS550.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/CS550.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PROJ1-Solitaire/game.py" beforeDir="false" afterPath="$PROJECT_DIR$/PROJ1-Solitaire/game.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HW6-Challenge-Questions/Question3.py" beforeDir="false" afterPath="$PROJECT_DIR$/HW6-Challenge-Questions/Question3.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -51,50 +50,51 @@
     <session id="418741397">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="20" />
+          <entry key="project.closed" value="21" />
           <entry key="project.open.time.0" value="2" />
           <entry key="project.open.time.3" value="1" />
-          <entry key="project.open.time.4" value="9" />
+          <entry key="project.open.time.4" value="11" />
           <entry key="project.open.time.5" value="6" />
           <entry key="project.open.time.6" value="2" />
-          <entry key="project.opened" value="20" />
+          <entry key="project.opened" value="22" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="png" value="2" />
-          <entry key="py" value="78" />
+          <entry key="py" value="84" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Image" value="2" />
-          <entry key="Python" value="78" />
+          <entry key="Python" value="84" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="Python Console" value="2527" />
+          <entry key="Python Console" value="2698" />
           <entry key="dummy" value="89" />
-          <entry key="py" value="17546" />
+          <entry key="py" value="17883" />
+          <entry key="txt" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="89" />
-          <entry key="Python" value="20073" />
+          <entry key="PLAIN_TEXT" value="100" />
+          <entry key="Python" value="20581" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="600">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/HW6-Challenge-Questions/Question1.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="406">
-              <caret line="14" column="89" lean-forward="true" selection-start-line="14" selection-start-column="89" selection-end-line="14" selection-end-column="89" />
+            <state relative-caret-position="261">
+              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
             </state>
           </provider>
         </entry>
@@ -114,8 +114,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/HW6-Challenge-Questions/Question3.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="464">
-              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+            <state relative-caret-position="493">
+              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+              <folding>
+                <element signature="e#407#420#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -136,7 +139,7 @@
         <entry file="file://$PROJECT_DIR$/HW6-Challenge-Questions/Question5.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="406">
-              <caret line="14" column="33" lean-forward="true" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
+              <caret line="14" column="76" selection-start-line="14" selection-start-column="76" selection-end-line="14" selection-end-column="76" />
             </state>
           </provider>
         </entry>
@@ -197,18 +200,20 @@
         <option value="$PROJECT_DIR$/CW5/warmup1.py" />
         <option value="$PROJECT_DIR$/CardGame/cardgame.py" />
         <option value="$PROJECT_DIR$/jfhkvsjldz.py" />
-        <option value="$PROJECT_DIR$/HW6-Challenge-Questions/Question3.py" />
         <option value="$PROJECT_DIR$/HW6-Challenge-Questions/Question4.py" />
         <option value="$PROJECT_DIR$/HW6-Challenge-Questions/Question2.py" />
         <option value="$PROJECT_DIR$/HW6-Challenge-Questions/Question1.py" />
         <option value="$PROJECT_DIR$/HW6-Challenge-Questions/Question5.py" />
+        <option value="$PROJECT_DIR$/tests/stringtable.py" />
+        <option value="$PROJECT_DIR$/HW6-Challenge-Questions/Question3.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="y" value="-12" />
-    <option name="width" value="1707" />
-    <option name="height" value="2066" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="268" />
+    <option name="y" value="140" />
+    <option name="width" value="1697" />
+    <option name="height" value="1552" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -242,11 +247,6 @@
             <path>
               <item name="CS550" type="b2602c69:ProjectViewProjectNode" />
               <item name="CS550" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CS550" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CS550" type="462c0819:PsiDirectoryNode" />
-              <item name="CW5-Lists" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="CS550" type="b2602c69:ProjectViewProjectNode" />
@@ -289,7 +289,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Question5">
+  <component name="RunManager" selected="Python.Question3">
     <configuration name="Question1" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="CS550" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -404,8 +404,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.Question5" />
         <item itemvalue="Python.Question3" />
+        <item itemvalue="Python.Question5" />
         <item itemvalue="Python.Question4" />
         <item itemvalue="Python.Question1" />
         <item itemvalue="Python.Question2" />
@@ -423,6 +423,14 @@
       <option name="presentableId" value="Default" />
       <updated>1536951613592</updated>
     </task>
+    <task id="LOCAL-00001" summary="Added HW6">
+      <created>1538070741686</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1538070741686</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TodoView">
@@ -436,13 +444,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="-12" width="3414" height="2066" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17062314" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32945737" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.358804" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.358804" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39977852" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -479,6 +488,11 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Updated HW6" />
+    <MESSAGE value="Added HW6" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added HW6" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -637,9 +651,7 @@
     <entry file="file://$PROJECT_DIR$/CardGame/cardgame.py" />
     <entry file="file://$PROJECT_DIR$/CardGame/display.py" />
     <entry file="file://$PROJECT_DIR$/jfhkvsjldz.py" />
-    <entry file="file://$PROJECT_DIR$/HW6-Challenge-Questions/number.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/HW6-Challenge-Questions/number.py" />
     <entry file="file://$PROJECT_DIR$/HW1-Conversation-Program/conversation.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -647,10 +659,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/HW6-Challenge-Questions/screenshot.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CW5-Lists/warmup1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="7" column="37" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/stringtable.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="7" column="35" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
+          <folding>
+            <marker date="1538076370797" expanded="true" signature="72:77" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/HW6-Challenge-Questions/Question1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="406">
-          <caret line="14" column="89" lean-forward="true" selection-start-line="14" selection-start-column="89" selection-end-line="14" selection-end-column="89" />
+        <state relative-caret-position="261">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
         </state>
       </provider>
     </entry>
@@ -666,8 +698,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/HW6-Challenge-Questions/Question3.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="464">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        <state relative-caret-position="493">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="e#407#420#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -681,20 +716,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HW6-Challenge-Questions/screenshot.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CW5-Lists/warmup1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="7" column="37" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/HW6-Challenge-Questions/Question5.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="406">
-          <caret line="14" column="33" lean-forward="true" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
+          <caret line="14" column="76" selection-start-line="14" selection-start-column="76" selection-end-line="14" selection-end-column="76" />
         </state>
       </provider>
     </entry>
