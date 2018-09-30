@@ -5,8 +5,8 @@ September 14, 2018
 @author: Ethan Chapman
 """
 
-import sys
-sys.path.append("..")
+import os, sys, inspect
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(inspect.getfile(inspect.currentframe())))))
 
 from libs.commandLine import *
 
