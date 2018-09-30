@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6c30f360-7b75-44b4-b1d4-2fde35f5dc0b" name="Default Changelist" comment="" />
+    <list default="true" id="6c30f360-7b75-44b4-b1d4-2fde35f5dc0b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/CS550.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/CS550.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PROJ1-Solitaire/game.py" beforeDir="false" afterPath="$PROJECT_DIR$/PROJ1-Solitaire/game.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,39 +51,41 @@
     <session id="418741397">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="21" />
+          <entry key="project.closed" value="23" />
           <entry key="project.open.time.0" value="2" />
           <entry key="project.open.time.3" value="1" />
-          <entry key="project.open.time.4" value="12" />
-          <entry key="project.open.time.5" value="6" />
+          <entry key="project.open.time.4" value="13" />
+          <entry key="project.open.time.5" value="7" />
           <entry key="project.open.time.6" value="2" />
-          <entry key="project.opened" value="23" />
+          <entry key="project.opened" value="25" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="png" value="2" />
-          <entry key="py" value="84" />
+          <entry key="py" value="91" />
+          <entry key="txt" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Image" value="2" />
-          <entry key="Python" value="84" />
+          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="Python" value="91" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="Python Console" value="2698" />
+          <entry key="Python Console" value="4502" />
           <entry key="dummy" value="89" />
-          <entry key="py" value="17901" />
+          <entry key="py" value="19749" />
           <entry key="txt" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="100" />
-          <entry key="Python" value="20599" />
+          <entry key="Python" value="24251" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
@@ -88,55 +94,14 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="600">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/HW6-Challenge-Questions/Question1.py">
+        <entry file="file://$PROJECT_DIR$/HW7-Minesweeper/mines.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="290">
-              <caret line="10" column="3" lean-forward="true" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/HW6-Challenge-Questions/Question2.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+            <state relative-caret-position="659">
+              <caret line="43" column="93" selection-start-line="43" selection-start-column="93" selection-end-line="43" selection-end-column="93" />
               <folding>
-                <element signature="e#318#331#0" expanded="true" />
+                <marker date="1538317250051" expanded="true" signature="268:271" ph="..." />
+                <marker date="1538317250051" expanded="true" signature="819:822" ph="..." />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/HW6-Challenge-Questions/Question3.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="522">
-              <caret line="18" column="92" selection-start-line="18" selection-start-column="92" selection-end-line="18" selection-end-column="92" />
-              <folding>
-                <element signature="e#407#420#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/HW6-Challenge-Questions/Question4.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="406">
-              <caret line="14" column="90" selection-start-line="14" selection-start-column="90" selection-end-line="14" selection-end-column="90" />
-              <folding>
-                <element signature="e#230#243#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/HW6-Challenge-Questions/Question5.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="406">
-              <caret line="14" column="76" selection-start-line="14" selection-start-column="76" selection-end-line="14" selection-end-column="76" />
             </state>
           </provider>
         </entry>
@@ -192,7 +157,6 @@
         <option value="$PROJECT_DIR$/PROJ1-Adventure-Game/solitaire.py" />
         <option value="$PROJECT_DIR$/PROJ1-Solitaire/display.py" />
         <option value="$PROJECT_DIR$/PROJ1-Solitaire/solitaire.py" />
-        <option value="$PROJECT_DIR$/PROJ1-Solitaire/game.py" />
         <option value="$PROJECT_DIR$/CW5/warmup2.py" />
         <option value="$PROJECT_DIR$/CW5/warmup1.py" />
         <option value="$PROJECT_DIR$/CardGame/cardgame.py" />
@@ -203,6 +167,9 @@
         <option value="$PROJECT_DIR$/HW6-Challenge-Questions/Question5.py" />
         <option value="$PROJECT_DIR$/tests/stringtable.py" />
         <option value="$PROJECT_DIR$/HW6-Challenge-Questions/Question3.py" />
+        <option value="$PROJECT_DIR$/PROJ1-Solitaire/game.py" />
+        <option value="$PROJECT_DIR$/importparent.txt" />
+        <option value="$PROJECT_DIR$/HW7-Minesweeper/mines.py" />
       </list>
     </option>
   </component>
@@ -236,7 +203,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -247,12 +213,13 @@
             <path>
               <item name="CS550" type="b2602c69:ProjectViewProjectNode" />
               <item name="CS550" type="462c0819:PsiDirectoryNode" />
-              <item name="HW6-Challenge-Questions" type="462c0819:PsiDirectoryNode" />
+              <item name="PROJ1-Solitaire" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -262,15 +229,15 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/Libs" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/HW6-Challenge-Questions" />
       <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/HW6-Challenge-Questions" />
       <recent name="$PROJECT_DIR$/CW5" />
       <recent name="$PROJECT_DIR$/HW3-Basic-Operations" />
       <recent name="$PROJECT_DIR$/CW3-Continuous-Interest" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Libs" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -285,7 +252,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Question3">
+  <component name="RunManager" selected="Python.mines">
     <configuration name="Question1" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="CS550" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -299,27 +266,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/HW6-Challenge-Questions/Question1.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Question2" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="CS550" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/HW6-Challenge-Questions" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/HW6-Challenge-Questions/Question2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -391,20 +337,41 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="mines" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="CS550" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/HW7-Minesweeper" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/HW7-Minesweeper/mines.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Python.Question1" />
-      <item itemvalue="Python.Question2" />
       <item itemvalue="Python.Question3" />
       <item itemvalue="Python.Question4" />
       <item itemvalue="Python.Question5" />
+      <item itemvalue="Python.mines" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.mines" />
         <item itemvalue="Python.Question3" />
         <item itemvalue="Python.Question5" />
         <item itemvalue="Python.Question4" />
         <item itemvalue="Python.Question1" />
-        <item itemvalue="Python.Question2" />
       </list>
     </recent_temporary>
   </component>
@@ -442,12 +409,12 @@
     <frame x="0" y="-12" width="3414" height="2066" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16261128" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16261128" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32945737" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.358804" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.358804" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39977852" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -456,7 +423,7 @@
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.39590254" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5002967" side_tool="true" weight="0.32945737" />
       <window_info active="true" anchor="bottom" id="Inspection Results" order="10" visible="true" weight="0.32945737" />
-      <window_info anchor="bottom" id="Python Console" order="11" sideWeight="0.49970326" weight="0.32945737" />
+      <window_info anchor="bottom" id="Python Console" order="11" sideWeight="0.49970326" weight="0.33942413" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -571,13 +538,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HW5-Number-Game/number.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="783">
-          <caret line="27" column="43" selection-start-line="27" selection-start-column="43" selection-end-line="27" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///usr/lib/python3.6/code.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="301">
@@ -596,20 +556,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="638">
           <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PROJ1-Solitaire/game.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="29">
-          <caret line="1" column="10" lean-forward="true" selection-start-line="1" selection-start-column="10" selection-end-line="1" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PROJ1-Solitaire/solitaire.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="580">
-          <caret line="21" column="17" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
         </state>
       </provider>
     </entry>
@@ -665,30 +611,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/stringtable.py">
+    <entry file="file://$PROJECT_DIR$/HW6-Challenge-Questions/Question2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="7" column="35" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
+        <state relative-caret-position="435">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HW6-Challenge-Questions/Question3.py">
+    <entry file="file://$PROJECT_DIR$/HW6-Challenge-Questions/Question1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="522">
-          <caret line="18" column="92" selection-start-line="18" selection-start-column="92" selection-end-line="18" selection-end-column="92" />
-          <folding>
-            <element signature="e#407#420#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HW6-Challenge-Questions/Question4.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="406">
-          <caret line="14" column="90" selection-start-line="14" selection-start-column="90" selection-end-line="14" selection-end-column="90" />
-          <folding>
-            <element signature="e#230#243#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="290">
+          <caret line="10" column="3" lean-forward="true" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
         </state>
       </provider>
     </entry>
@@ -699,20 +632,71 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HW6-Challenge-Questions/Question2.py">
+    <entry file="file://$PROJECT_DIR$/HW6-Challenge-Questions/Question3.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-          <folding>
-            <element signature="e#318#331#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="522">
+          <caret line="18" column="92" selection-start-line="18" selection-start-column="92" selection-end-line="18" selection-end-column="92" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HW6-Challenge-Questions/Question1.py">
+    <entry file="file://$PROJECT_DIR$/HW6-Challenge-Questions/Question4.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="10" column="3" lean-forward="true" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
+        <state relative-caret-position="406">
+          <caret line="14" column="90" lean-forward="true" selection-start-line="14" selection-start-column="90" selection-end-line="14" selection-end-column="90" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/stringtable.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="7" column="35" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HW7-Minesweeper/Question1.py" />
+    <entry file="file://$PROJECT_DIR$/HW5-Number-Game/number.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="783">
+          <caret line="27" column="43" selection-start-line="27" selection-start-column="43" selection-end-line="27" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PROJ1-Solitaire/solitaire.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="609">
+          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/importparent.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="29">
+          <caret line="1" column="110" selection-start-line="1" selection-start-column="110" selection-end-line="1" selection-end-column="110" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PROJ1-Solitaire/game.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="23" lean-forward="true" selection-start-column="23" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/lib/python3.6/random.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="348">
+          <caret line="315" selection-start-line="315" selection-end-line="315" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HW7-Minesweeper/mines.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="659">
+          <caret line="43" column="93" selection-start-line="43" selection-start-column="93" selection-end-line="43" selection-end-column="93" />
+          <folding>
+            <marker date="1538317250051" expanded="true" signature="268:271" ph="..." />
+            <marker date="1538317250051" expanded="true" signature="819:822" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
