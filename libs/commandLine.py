@@ -9,6 +9,7 @@ import os
 
 from typing import List
 
+from varInput import *
 
 class Argument:
     argType: type = None
@@ -51,11 +52,19 @@ class CommandLine:
         arguments = sys.argv
         arguments.pop(0)
 
-        res: List[str] = []
+        res: list = []
 
         if len(arguments) < len(self.argNames):
-            self.print_help_str()
-            exit()
+            if len(arguments) == 0:
+                var_in = VarInput()
+
+                for i in range(len(self.argTypes)):
+                    res += [var_in.input(self.argNames[i] + ": ", self.argTypes[i])]
+
+                return res
+            else:
+                self.print_help_str()
+                exit()
 
         try:
             for i in range(len(self.argNames)):

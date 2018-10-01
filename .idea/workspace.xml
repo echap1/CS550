@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6c30f360-7b75-44b4-b1d4-2fde35f5dc0b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/CW3-Continuous-Interest/interest.py" beforeDir="false" afterPath="$PROJECT_DIR$/CW3-Continuous-Interest/interest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HW3-Basic-Operations/question1.py" beforeDir="false" afterPath="$PROJECT_DIR$/HW3-Basic-Operations/question1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HW3-Basic-Operations/question2.py" beforeDir="false" afterPath="$PROJECT_DIR$/HW3-Basic-Operations/question2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HW3-Basic-Operations/question3.py" beforeDir="false" afterPath="$PROJECT_DIR$/HW3-Basic-Operations/question3.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HW5-Number-Game/number.py" beforeDir="false" afterPath="$PROJECT_DIR$/HW5-Number-Game/number.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HW7-Minesweeper/mines.py" beforeDir="false" afterPath="$PROJECT_DIR$/HW7-Minesweeper/mines.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/commandLine.py" beforeDir="false" afterPath="$PROJECT_DIR$/libs/commandLine.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/varInput.py" beforeDir="false" afterPath="$PROJECT_DIR$/libs/varInput.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -53,19 +52,19 @@
     <session id="418741397">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="23" />
+          <entry key="project.closed" value="24" />
           <entry key="project.open.time.0" value="2" />
-          <entry key="project.open.time.3" value="1" />
+          <entry key="project.open.time.3" value="2" />
           <entry key="project.open.time.4" value="13" />
           <entry key="project.open.time.5" value="7" />
           <entry key="project.open.time.6" value="2" />
-          <entry key="project.opened" value="25" />
+          <entry key="project.opened" value="26" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="png" value="2" />
-          <entry key="py" value="109" />
+          <entry key="py" value="113" />
           <entry key="txt" value="2" />
         </counts>
       </usages-collector>
@@ -73,28 +72,54 @@
         <counts>
           <entry key="Image" value="2" />
           <entry key="PLAIN_TEXT" value="2" />
-          <entry key="Python" value="109" />
+          <entry key="Python" value="113" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="Python Console" value="4502" />
           <entry key="dummy" value="89" />
-          <entry key="py" value="19749" />
+          <entry key="py" value="20256" />
           <entry key="txt" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="100" />
-          <entry key="Python" value="24251" />
+          <entry key="Python" value="24758" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="600" />
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/HW7-Minesweeper/mines.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="870">
+              <caret line="30" column="30" selection-start-line="30" selection-start-column="30" selection-end-line="30" selection-end-column="30" />
+              <folding>
+                <marker date="1538354039411" expanded="true" signature="268:271" ph="..." />
+                <marker date="1538354039411" expanded="true" signature="638:641" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/libs/commandLine.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="522">
+              <caret line="60" column="51" lean-forward="true" selection-start-line="60" selection-start-column="51" selection-end-line="60" selection-end-column="51" />
+              <folding>
+                <element signature="e#60#70#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -131,9 +156,7 @@
         <option value="$PROJECT_DIR$/libs/basicCommandLine.py" />
         <option value="$PROJECT_DIR$/HW4-If-Statements/grade.py" />
         <option value="$PROJECT_DIR$/CW4-Choose-Your-Own-Adventure/adventure.py" />
-        <option value="$PROJECT_DIR$/libs/commandLine.py" />
         <option value="$PROJECT_DIR$/PROJ1-Adventure-Game/adventure.py" />
-        <option value="$PROJECT_DIR$/libs/varInput.py" />
         <option value="$PROJECT_DIR$/PROJ1-Adventure-Game/display.py" />
         <option value="$PROJECT_DIR$/PROJ1-Adventure-Game/card.py" />
         <option value="$PROJECT_DIR$/PROJ1-Adventure-Game/game.py" />
@@ -152,12 +175,14 @@
         <option value="$PROJECT_DIR$/HW6-Challenge-Questions/Question3.py" />
         <option value="$PROJECT_DIR$/PROJ1-Solitaire/game.py" />
         <option value="$PROJECT_DIR$/importparent.txt" />
-        <option value="$PROJECT_DIR$/HW7-Minesweeper/mines.py" />
         <option value="$PROJECT_DIR$/CW3-Continuous-Interest/interest.py" />
         <option value="$PROJECT_DIR$/HW3-Basic-Operations/question1.py" />
         <option value="$PROJECT_DIR$/HW3-Basic-Operations/question2.py" />
         <option value="$PROJECT_DIR$/HW3-Basic-Operations/question3.py" />
         <option value="$PROJECT_DIR$/HW5-Number-Game/number.py" />
+        <option value="$PROJECT_DIR$/libs/varInput.py" />
+        <option value="$PROJECT_DIR$/libs/commandLine.py" />
+        <option value="$PROJECT_DIR$/HW7-Minesweeper/mines.py" />
       </list>
     </option>
   </component>
@@ -198,6 +223,16 @@
               <item name="CS550" type="b2602c69:ProjectViewProjectNode" />
               <item name="CS550" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="CS550" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CS550" type="462c0819:PsiDirectoryNode" />
+              <item name="HW7-Minesweeper" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CS550" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CS550" type="462c0819:PsiDirectoryNode" />
+              <item name="libs" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -209,7 +244,7 @@
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///media/OneDrive/OneDrive/Coding/CS550/libs/commandLine.py" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Console Colors" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -236,27 +271,6 @@
     </option>
   </component>
   <component name="RunManager" selected="Python.mines">
-    <configuration name="Question1" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="CS550" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/HW6-Challenge-Questions" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/HW6-Challenge-Questions/Question1.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="Question3" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="CS550" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -320,6 +334,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="commandLine" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="CS550" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/libs" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/libs/commandLine.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="mines" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="CS550" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -342,19 +377,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.Question1" />
       <item itemvalue="Python.Question3" />
       <item itemvalue="Python.Question4" />
       <item itemvalue="Python.Question5" />
       <item itemvalue="Python.mines" />
+      <item itemvalue="Python.commandLine" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Python.mines" />
+        <item itemvalue="Python.commandLine" />
         <item itemvalue="Python.Question3" />
         <item itemvalue="Python.Question5" />
         <item itemvalue="Python.Question4" />
-        <item itemvalue="Python.Question1" />
       </list>
     </recent_temporary>
   </component>
@@ -390,13 +425,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="-12" width="3414" height="2066" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16261128" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16261128" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32945737" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.358804" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.99501663" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39977852" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -478,24 +514,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/libs/varInput.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="638">
-          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/PROJ1-Solitaire/display.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2436">
           <caret line="84" column="23" selection-start-line="84" selection-start-column="23" selection-end-line="84" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/libs/commandLine.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="63" selection-start-line="63" selection-end-line="63" />
         </state>
       </provider>
     </entry>
@@ -545,17 +567,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HW7-Minesweeper/mines.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="928">
-          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
-          <folding>
-            <marker date="1538317287880" expanded="true" signature="268:271" ph="..." />
-            <marker date="1538317287880" expanded="true" signature="812:815" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/CW2-Unit-Conversion/tempConversion.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="174">
@@ -567,9 +578,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="290">
           <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-          <folding>
-            <element signature="e#85#98#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -591,9 +599,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="174">
           <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -622,9 +627,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="435">
           <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-          <folding>
-            <element signature="e#318#331#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -688,6 +690,34 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="232">
           <caret line="8" column="110" selection-start-line="8" selection-start-column="110" selection-end-line="8" selection-end-column="110" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libs/varInput.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="551">
+          <caret line="19" column="24" lean-forward="true" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libs/commandLine.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="522">
+          <caret line="60" column="51" lean-forward="true" selection-start-line="60" selection-start-column="51" selection-end-line="60" selection-end-column="51" />
+          <folding>
+            <element signature="e#60#70#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HW7-Minesweeper/mines.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="870">
+          <caret line="30" column="30" selection-start-line="30" selection-start-column="30" selection-end-line="30" selection-end-column="30" />
+          <folding>
+            <marker date="1538354039411" expanded="true" signature="268:271" ph="..." />
+            <marker date="1538354039411" expanded="true" signature="638:641" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>

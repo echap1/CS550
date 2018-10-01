@@ -10,21 +10,11 @@ from termcolor import colored
 from libs.commandLine import CommandLine, Argument
 
 
-number_weights = np.array([[1, 1, 1],
-                           [1, 0, 1],
-                           [1, 1, 1]])
+number_weights = np.array([[1, 1, 1], [1, 0, 1], [1, 1, 1]])
 
-number_colors = {1: colored("1", "blue"),
-                 2: colored("2", "green"),
-                 3: colored("3", "red"),
-                 4: colored("4", "blue", attrs=["dark"]),
-                 5: colored("5", "magenta"),
-                 6: colored("6", "cyan"),
-                 7: "7",
-                 8: colored("8", "grey"),
-
-                 -1: colored("*", attrs=["bold", "reverse"]),
-                 0: " "}
+number_colors = {1: colored("1", "blue"), 2: colored("2", "green"), 3: colored("3", "red"),
+                 4: colored("4", "blue", attrs=["dark"]), 5: colored("5", "magenta"), 6: colored("6", "cyan"),
+                 7: "7", 8: colored("8", "grey"), -1: colored("*", attrs=["bold", "reverse"]), 0: " "}
 
 
 def get_grid_around(point, n, grid):
@@ -36,16 +26,15 @@ c.add_argument("WIDTH", Argument(int, lambda x: x > 0), "Width of the grid")
 c.add_argument("HEIGHT", Argument(int, lambda x: x > 0), "Height of the grid")
 [w, h] = c.get_arg_values()
 
-mines = (w * h) // 5
-
+mines = (w * h) // 5 + 1
 mine_grid = np.array([[0] * (w + 2) for _ in range(h + 2)])
 num_grid = np.array([[0] * (w + 2) for _ in range(h + 2)])
 
-for i, j in random.sample(list(itertools.product(np.arange(w) + 1, np.arange(w) + 2)), mines):
-    mine_grid[i][j] = 1
+for i, j in random.sample(list(itertools.product(np.arange(w) + 1, np.arange(h) + 1)), mines):
+    mine_grid[j][i] = 1
 
-for x in np.arange(w) + 1:
-    for y in np.arange(h) + 1:
+for y in np.arange(w) + 1:
+    for x in np.arange(h) + 1:
         around = get_grid_around([x, y], len(number_weights) // 2, mine_grid)
         num_grid[x][y] = np.sum(around * number_weights) if mine_grid[x][y] == 0 else -1
 
