@@ -16,12 +16,12 @@
       <sourceFolder url="file://$MODULE_DIR$/HW4-If-Statements" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/HW5-Number-Game" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/HW6-Challenge-Questions" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/HW7-Minesweeper" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/PROJ2-Minesweeper" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/libs" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/PROJ1-Solitaire" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/tests" isTestSource="false" />
     </content>
-    <orderEntry type="jdk" jdkName="Python 3.6" jdkType="Python SDK" />
+    <orderEntry type="jdk" jdkName="Python 3.6 (1)" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
   <component name="TestRunnerService">
