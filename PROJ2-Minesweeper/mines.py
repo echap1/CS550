@@ -35,3 +35,7 @@ while True:
 
     if a == 2:
         grid.set_flagged(x, y, not(grid.get_flagged(x, y)))
+
+    if grid.check_win():
+        print("You Win!")
+        break

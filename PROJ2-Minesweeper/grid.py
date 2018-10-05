@@ -59,18 +59,26 @@ class Grid:
         self.num_grid[self.n + y][self.n + x] = int(n)
 
     def get_visible(self, x, y):
-        return self.visible_grid[self.n + y][self.n + x]
+        return bool(self.visible_grid[self.n + y][self.n + x])
 
-    def set_visible(self, x, y, v: bool, bulk_fill=True):
+    def set_visible(self, x, y, v: bool):
         self.visible_grid[self.n + y][self.n + x] = int(v)
 
-        if self.get_num(x, y) == 0 and bulk_fill:
+        if self.get_num(x, y) == 0:
             for i in [-1, 0, 1]:
                 for j in [-1, 0, 1]:
                     if not(i == 0 and j == 0) and not(self.get_visible(x + i, y + j)):
                         if 0 <= x < self.w and 0 <= y < self.h:
                             self.set_visible(x + i, y + j, True)
 
+    def check_win(self):
+        a = []
+
+        for i in range(self.w):
+            for j in range(self.h):
+                a += [self.get_visible(i, j) or (self.get_flagged(i, j) and self.get_num(i, j) == -1)]
+
+        return all(a)
 
     def get_flagged(self, x, y):
         return bool(self.flagged_grid[self.n + y][self.n + x])

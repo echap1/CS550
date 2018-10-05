@@ -9,7 +9,7 @@
       <sourceFolder url="file://$MODULE_DIR$/CW1-Command-Line-Arguments" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/CW2-Unit-Conversion" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/CW3-Continuous-Interest" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/CW5-Lists" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/CW4-Lists" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/HW1-Conversation-Program" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/HW2-Operators-Data-Types" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/HW3-Basic-Operations" isTestSource="false" />
@@ -20,6 +20,7 @@
       <sourceFolder url="file://$MODULE_DIR$/libs" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/PROJ1-Solitaire" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/tests" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/CW5-Recursion" isTestSource="false" />
     </content>
     <orderEntry type="jdk" jdkName="Python 3.6 (1)" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />

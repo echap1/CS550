@@ -4,7 +4,7 @@ sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(inspect.getfi
 from typing import List
 from termcolor import colored
 
-from libs.varInput import VarInput
+from libs.commandLine import VarInput, Argument
 
 from card import Card, Deck, Location
 
@@ -219,7 +219,7 @@ class Game:
             message = colored("Input (" + ", ".join([self.inputStrings[s] for s in places]) + "): ", "blue", attrs=["bold"])
 
         while True:
-            loc = Location.from_string(self.varInput.input(message, str, Location.is_location))
+            loc = Location.from_string(self.varInput.input(message, Argument(str, Location.is_location)))
 
             if loc.pile_type in places:
                 break
