@@ -1,3 +1,10 @@
+"""
+CS550 Project: Minesweeper
+Due September 13, 2018
+
+@author: Ethan Chapman
+"""
+
 import os, sys, inspect
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(inspect.getfile(inspect.currentframe())))))
 
