@@ -4,7 +4,9 @@
     <list default="true" id="6c30f360-7b75-44b4-b1d4-2fde35f5dc0b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/CS550.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/CS550.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PROJ2-Minesweeper/mines.py" beforeDir="false" afterPath="$PROJECT_DIR$/PROJ2-Minesweeper/mines.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HW7-Red-Image/image.py" beforeDir="false" afterPath="$PROJECT_DIR$/HW7-Red-Image/redImage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HW7-Red-Image/random.png" beforeDir="false" afterPath="$PROJECT_DIR$/HW7-Red-Image/random.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/commandLine.py" beforeDir="false" afterPath="$PROJECT_DIR$/libs/commandLine.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -51,41 +53,42 @@
     <session id="418741397">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="38" />
+          <entry key="project.closed" value="42" />
           <entry key="project.open.time.0" value="2" />
           <entry key="project.open.time.3" value="2" />
-          <entry key="project.open.time.4" value="17" />
-          <entry key="project.open.time.5" value="14" />
-          <entry key="project.open.time.6" value="5" />
-          <entry key="project.opened" value="40" />
+          <entry key="project.open.time.4" value="21" />
+          <entry key="project.open.time.5" value="15" />
+          <entry key="project.open.time.6" value="6" />
+          <entry key="project.opened" value="46" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="png" value="16" />
-          <entry key="py" value="149" />
-          <entry key="txt" value="2" />
+          <entry key="png" value="46" />
+          <entry key="ppm" value="1" />
+          <entry key="py" value="159" />
+          <entry key="txt" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Image" value="16" />
-          <entry key="PLAIN_TEXT" value="2" />
-          <entry key="Python" value="149" />
+          <entry key="Image" value="47" />
+          <entry key="PLAIN_TEXT" value="3" />
+          <entry key="Python" value="159" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="Python Console" value="5837" />
-          <entry key="dummy" value="89" />
-          <entry key="py" value="25534" />
+          <entry key="Python Console" value="8473" />
+          <entry key="dummy" value="117" />
+          <entry key="py" value="31007" />
           <entry key="txt" value="35" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="124" />
-          <entry key="Python" value="31371" />
+          <entry key="PLAIN_TEXT" value="152" />
+          <entry key="Python" value="39480" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
@@ -125,15 +128,15 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="600">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/HW7-Red-Image/image.py">
+        <entry file="file://$PROJECT_DIR$/CW7-Mandelbrot/mandelbrot.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="609">
-              <caret line="26" column="108" lean-forward="true" selection-start-line="26" selection-start-column="108" selection-end-line="26" selection-end-column="108" />
+            <state relative-caret-position="290">
+              <caret line="10" column="42" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="42" />
               <folding>
-                <element signature="e#80#101#0" expanded="true" />
-                <element signature="e#264#386#0" />
-                <marker date="1539311756346" expanded="true" signature="218:395" ph="..." />
-                <marker date="1539311756346" expanded="true" signature="509:510" ph="..." />
+                <element signature="e#0#21#0" expanded="true" />
+                <marker date="1539876987929" expanded="true" signature="165:972" ph="..." />
+                <marker date="1539876987929" expanded="true" signature="211:546" ph="..." />
+                <marker date="1539876987929" expanded="true" signature="609:614" ph="..." />
               </folding>
             </state>
           </provider>
@@ -162,9 +165,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/CW3-Continuous-Interest/commandLine.py" />
-        <option value="$PROJECT_DIR$/CW1-Command-Line-Arguments/main.py" />
-        <option value="$PROJECT_DIR$/HW3-Basic-Operations/commandLine.py" />
         <option value="$PROJECT_DIR$/Libs/commandLine.py" />
         <option value="$PROJECT_DIR$/HW1-Conversation-Program/main.py" />
         <option value="$PROJECT_DIR$/CW2-Unit-Conversion/TempConversion.py" />
@@ -206,19 +206,24 @@
         <option value="$PROJECT_DIR$/HW7-Minesweeper/mines.py" />
         <option value="$PROJECT_DIR$/tests/getch.py" />
         <option value="$PROJECT_DIR$/libs/color.py" />
-        <option value="$PROJECT_DIR$/libs/commandLine.py" />
         <option value="$PROJECT_DIR$/PROJ1-Solitaire/game.py" />
         <option value="$PROJECT_DIR$/PROJ2-Minesweeper/grid.py" />
         <option value="$PROJECT_DIR$/CW5-Recursion/group_sum.py" />
         <option value="$PROJECT_DIR$/PROJ2-Minesweeper/mines.py" />
         <option value="$PROJECT_DIR$/HW7-Red-Image/image.py" />
+        <option value="$PROJECT_DIR$/libs/commandLine.py" />
+        <option value="$PROJECT_DIR$/CW6-Images/image.py" />
+        <option value="$PROJECT_DIR$/CW6-Images/images.py" />
+        <option value="$PROJECT_DIR$/CW7-Mandelbrot/images.py" />
+        <option value="$PROJECT_DIR$/CW7-Mandelbrot/mandelbrot.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="y" value="-12" />
-    <option name="width" value="1707" />
-    <option name="height" value="2066" />
+    <option name="x" value="327" />
+    <option name="y" value="591" />
+    <option name="width" value="1697" />
+    <option name="height" value="1552" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -245,7 +250,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -256,12 +260,13 @@
             <path>
               <item name="CS550" type="b2602c69:ProjectViewProjectNode" />
               <item name="CS550" type="462c0819:PsiDirectoryNode" />
-              <item name="HW7-Red-Image" type="462c0819:PsiDirectoryNode" />
+              <item name="CW7-Mandelbrot" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -275,11 +280,11 @@
       <recent name="$PROJECT_DIR$/Libs" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/CW7-Mandelbrot" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/HW6-Challenge-Questions" />
       <recent name="$PROJECT_DIR$/CW5" />
       <recent name="$PROJECT_DIR$/HW3-Basic-Operations" />
-      <recent name="$PROJECT_DIR$/CW3-Continuous-Interest" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -294,7 +299,28 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.image">
+  <component name="RunManager" selected="Python.images">
+    <configuration name="image (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="CS550" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/CW6-Images" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/CW6-Images/images.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="image" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="CS550" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -307,7 +333,28 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/HW7-Red-Image/image.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/HW7-Red-Image/redImage.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="images" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="CS550" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/CW7-Mandelbrot" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/CW7-Mandelbrot/mandelbrot.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -362,11 +409,15 @@
       <item itemvalue="Python.mines" />
       <item itemvalue="Python.solitaire" />
       <item itemvalue="Python.image" />
+      <item itemvalue="Python.image (1)" />
+      <item itemvalue="Python.images" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.image" />
+        <item itemvalue="Python.images" />
         <item itemvalue="Python.mines" />
+        <item itemvalue="Python.image (1)" />
+        <item itemvalue="Python.image" />
         <item itemvalue="Python.solitaire" />
       </list>
     </recent_temporary>
@@ -410,13 +461,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="-12" width="3414" height="2066" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14154303" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14154303" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32945737" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.36821705" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.27740863" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39922482" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -425,31 +477,11 @@
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.39590254" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5002967" side_tool="true" weight="0.32945737" />
       <window_info active="true" anchor="bottom" id="Inspection Results" order="10" visible="true" weight="0.32945737" />
-      <window_info anchor="bottom" id="Python Console" order="11" sideWeight="0.49970326" weight="0.3383167" />
+      <window_info anchor="bottom" id="Python Console" order="11" sideWeight="0.49970326" weight="0.33794248" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
-    <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16261128" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32945737" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.358804" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39977852" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32945737" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32945737" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.39590254" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5002967" side_tool="true" weight="0.32945737" />
-      <window_info active="true" anchor="bottom" id="Inspection Results" order="10" visible="true" weight="0.32945737" />
-      <window_info anchor="bottom" id="Python Console" order="11" sideWeight="0.49970326" weight="0.33942413" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-    </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -475,18 +507,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file:///usr/lib/python3.6/code.py" />
-    <entry file="file://$USER_HOME$/.local/lib/python3.6/site-packages/numpy/core/fromnumeric.py" />
-    <entry file="file://$PROJECT_DIR$/CardGame/screenshots/solitaire.png" />
-    <entry file="file://$PROJECT_DIR$/CardGame/card.py" />
-    <entry file="file://$PROJECT_DIR$/CardGame/solitaire.py" />
-    <entry file="file://$PROJECT_DIR$/CardGame/cardgame.py" />
-    <entry file="file://$PROJECT_DIR$/CardGame/display.py" />
-    <entry file="file://$PROJECT_DIR$/jfhkvsjldz.py" />
-    <entry file="file://$PROJECT_DIR$/HW6-Challenge-Questions/number.py" />
-    <entry file="file://$PROJECT_DIR$/HW6-Challenge-Questions/screenshot.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/HW7-Minesweeper/Question1.py" />
     <entry file="file:///usr/lib/python3.6/random.py" />
     <entry file="file://$PROJECT_DIR$/CW1-Command-Line-Arguments/greeting.py">
@@ -507,13 +527,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="290">
           <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/importparent.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="1" selection-end-column="110" />
         </state>
       </provider>
     </entry>
@@ -609,13 +622,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/getch.py" />
-    <entry file="file://$PROJECT_DIR$/libs/commandLine.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="765">
-          <caret line="40" selection-start-line="40" selection-end-line="40" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/PROJ1-Solitaire/display.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3741">
@@ -670,19 +676,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret lean-forward="true" />
-          <folding>
-            <element signature="e#0#23#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PROJ2-Minesweeper/grid.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1040">
-          <caret line="83" column="62" selection-start-line="83" selection-start-column="62" selection-end-line="83" selection-end-column="62" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -693,13 +686,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PROJ2-Minesweeper/mines.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="5" column="3" lean-forward="true" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tests/stringtable.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="203">
@@ -707,19 +693,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HW7-Red-Image/red_image.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HW7-Red-Image/sine.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/HW7-Red-Image/red_image.png" />
     <entry file="file://$PROJECT_DIR$/HW7-Red-Image/red.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HW7-Red-Image/mod.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HW7-Red-Image/random.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/libs/color.py">
@@ -729,15 +704,92 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HW7-Red-Image/image.py">
+    <entry file="file://$PROJECT_DIR$/HW7-Red-Image/random.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CW6-Images/group_sum.py" />
+    <entry file="file://$USER_HOME$/.local/lib/python3.6/site-packages/PIL/Image.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="609">
-          <caret line="26" column="108" lean-forward="true" selection-start-line="26" selection-start-column="108" selection-end-line="26" selection-end-column="108" />
+        <state relative-caret-position="7152">
+          <caret line="1640" selection-start-line="1640" selection-end-line="1640" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CW6-Images/fuzzy.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/checker.png" />
+    <entry file="file://$PROJECT_DIR$/CW6-Images/checker.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HW7-Red-Image/sine.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CW6-Images/images.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="348">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HW7-Red-Image/mod.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HW7-Red-Image/redImage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="725">
+          <caret line="25" column="106" selection-start-line="25" selection-start-column="106" selection-end-line="25" selection-end-column="106" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libs/commandLine.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1310">
+          <caret line="132" selection-start-line="132" selection-end-line="132" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/lib/python3.6/code.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="90" selection-start-line="90" selection-end-line="90" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/importparent.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="29">
+          <caret line="1" column="61" lean-forward="true" selection-start-line="1" selection-start-column="61" selection-end-line="1" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CW7-Mandelbrot/mandelbrot.ppm" />
+    <entry file="file://$PROJECT_DIR$/CW7-Mandelbrot/mandelbrot.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PROJ2-Minesweeper/mines.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="725">
+          <caret line="25" lean-forward="true" selection-start-line="20" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PROJ2-Minesweeper/grid.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2291">
+          <caret line="83" column="62" selection-start-line="83" selection-start-column="62" selection-end-line="83" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CW7-Mandelbrot/mandelbrot.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="10" column="42" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="42" />
           <folding>
-            <element signature="e#80#101#0" expanded="true" />
-            <element signature="e#264#386#0" />
-            <marker date="1539311756346" expanded="true" signature="218:395" ph="..." />
-            <marker date="1539311756346" expanded="true" signature="509:510" ph="..." />
+            <element signature="e#0#21#0" expanded="true" />
+            <marker date="1539876987929" expanded="true" signature="165:972" ph="..." />
+            <marker date="1539876987929" expanded="true" signature="211:546" ph="..." />
+            <marker date="1539876987929" expanded="true" signature="609:614" ph="..." />
           </folding>
         </state>
       </provider>

@@ -6,6 +6,7 @@ Command Line Input Library
 
 import sys
 import os
+import subprocess
 
 from typing import List
 
@@ -128,3 +129,13 @@ def clear():
         os.system('cls')
     else:
         os.system('clear')
+
+def open(filepath):
+    if sys.platform.startswith('darwin'):
+        subprocess.call(('open', filepath))
+
+    elif os.name == 'nt':  # For Windows
+        os.startfile(filepath)
+
+    elif os.name == 'posix':  # For Linux, Mac, etc.
+        subprocess.call(('xdg-open', filepath))
