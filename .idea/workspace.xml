@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6c30f360-7b75-44b4-b1d4-2fde35f5dc0b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CW7-Mandelbrot/mandelbrot.png" beforeDir="false" afterPath="$PROJECT_DIR$/CW7-Mandelbrot/mandelbrot.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CW7-Mandelbrot/mandelbrot.py" beforeDir="false" afterPath="$PROJECT_DIR$/CW7-Mandelbrot/mandelbrot.py" afterDir="false" />
     </list>
@@ -79,14 +78,14 @@
         <counts>
           <entry key="Python Console" value="8748" />
           <entry key="dummy" value="132" />
-          <entry key="py" value="32783" />
+          <entry key="py" value="32811" />
           <entry key="txt" value="35" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="167" />
-          <entry key="Python" value="41531" />
+          <entry key="Python" value="41559" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
@@ -128,11 +127,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/CW7-Mandelbrot/mandelbrot.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="928">
-              <caret line="32" column="47" selection-start-line="32" selection-start-column="47" selection-end-line="32" selection-end-column="47" />
+            <state relative-caret-position="290">
+              <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
               <folding>
                 <element signature="e#0#21#0" expanded="true" />
-                <marker date="1539912621017" expanded="true" signature="1039:1041" ph="..." />
+                <marker date="1539913294709" expanded="true" signature="1038:1040" ph="..." />
               </folding>
             </state>
           </provider>
@@ -382,12 +381,12 @@
     <frame x="0" y="-12" width="3414" height="2066" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14154303" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14154303" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32945737" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.27740863" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.27740863" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39922482" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -715,11 +714,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/CW7-Mandelbrot/mandelbrot.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="928">
-          <caret line="32" column="47" selection-start-line="32" selection-start-column="47" selection-end-line="32" selection-end-column="47" />
+        <state relative-caret-position="290">
+          <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
           <folding>
             <element signature="e#0#21#0" expanded="true" />
-            <marker date="1539912621017" expanded="true" signature="1039:1041" ph="..." />
+            <marker date="1539913294709" expanded="true" signature="1038:1040" ph="..." />
           </folding>
         </state>
       </provider>

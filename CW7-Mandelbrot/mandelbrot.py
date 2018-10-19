@@ -8,9 +8,9 @@ from pallete import Histogram, linear_interpolate
 
 color = Histogram()
 
-color += (0, (0, 0, 80))
-color += (128, (255, 255, 255))
-color += (250, (100, 100, 255))
+color += (0, (0, 0, 125))
+color += (100, (255, 255, 255))
+color += (200, (255, 255, 0))
 color += (255, (0, 0, 0))
 
 image_size = (1000, 1000)
