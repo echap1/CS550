@@ -1,80 +1,57 @@
-from PIL import Image
+from pallete import PointInterpolation
+from mandelbrotCalc import Mandelbrot
 
-import matplotlib.pyplot as plt
-import itertools
-import numpy as np
 
-from pallete import Histogram, linear_interpolate
+def set_colors(image_num):
+    color = [PointInterpolation() for _ in range(image_num)]
 
-color = Histogram()
+    color[0] += (0,      (100, 0  , 7  ))
+    color[0] += (0.16,   (152, 24 , 80 ))
+    color[0] += (0.36,   (203, 32 , 107))
+    color[0] += (0.42,   (255, 237, 255))
+    color[0] += (0.6425, (0  , 255, 170))
+    color[0] += (0.8575, (0  , 0  , 2  ))
+    color[0] += (1,      (0  , 0  , 0  ))
 
-color += (0, (0, 0, 125))
-color += (100, (255, 255, 255))
-color += (200, (255, 255, 0))
-color += (255, (0, 0, 0))
+    color[1] += (0,      (7  , 100, 0  ))
+    color[1] += (0.16,   (80 , 152, 24 ))
+    color[1] += (0.36,   (107, 203, 32 ))
+    color[1] += (0.42,   (255, 255, 237))
+    color[1] += (0.6425, (170, 0  , 255))
+    color[1] += (0.8575, (2  , 0  , 0  ))
+    color[1] += (1,      (0  , 0  , 0  ))
 
-image_size = (1000, 1000)
-# color = lambda x: hsv2rgb(x / 256, 0.5, 0.5 if x < 255 else 0)
+    color[2] += (0,      (0  , 7  , 100))
+    color[2] += (0.16,   (24 , 80 , 152))
+    color[2] += (0.36,   (32 , 107, 203))
+    color[2] += (0.42,   (237, 255, 255))
+    color[2] += (0.6425, (255, 170, 0  ))
+    color[2] += (0.8575, (0  , 2  , 0  ))
+    color[2] += (1,      (0  , 0  , 0  ))
+
+    color[3] += (0,      (7  , 0  , 100))
+    color[3] += (0.16,   (80 , 24 , 152))
+    color[3] += (0.36,   (107, 32 , 203))
+    color[3] += (0.42,   (255, 237, 255))
+    color[3] += (0.6425, (170, 255, 0  ))
+    color[3] += (0.8575, (2  , 0  , 0  ))
+    color[3] += (1,      (0  , 0  , 0  ))
+
+    return color
+
+
+image_count = 4
+
+colors = set_colors(image_count)
+
+image_size = (2000, 2000)
 max_iterations = 255
 
-# def zoom(current_bounds, point, factor=1.3):
-#     [c_min_x, c_min_y, c_max_x, c_max_y] = [*current_bounds]
-#     [p_x, p_y] = [*point]
-#
-#     c_min_x += (p_x - c_min_x) / factor
-#     c_min_y += (p_y - c_min_y) / factor
-#     c_max_x += (p_x - c_max_x) / factor
-#     c_max_y += (p_y - c_max_y) / factor
-#
-#     return (c_min_x, c_min_y, c_max_x, c_max_y)
+coordinates = [
+    Mandelbrot.zoom((-0.235125, 0.827215), 4.0e-5),
+    Mandelbrot.zoom((-0.7463, 0.1102), 0.005),
+    Mandelbrot.zoom((-1.15412664822215, 0.30877492767139), 3.7e-5),
+    Mandelbrot.zoom((-0.8115312340458353, 0.2014296112433656), 3.4e-5)
+]
 
-# zoom((-2, -2, 2, 2), (-0.75, 0))
-
-def get_c(xy, image_size, c_bounds=(-2, -1.5, 1, 1.5)):
-    [x, y, w, h, c_min_x, c_min_y, c_max_x, c_max_y] = [*xy, *image_size, *c_bounds]
-    return complex((c_max_x - c_min_x) * x / (w - 1) + c_min_x, (c_max_y - c_min_y) * y / (h - 1) + c_min_y)
-
-def escape_num(c, max_iterations, r=200):
-    z = 0j
-    iterations = 0
-
-    for i in range(max_iterations):
-        if abs(z) >= r:
-            iterations = i
-            break
-
-        z = z ** 2 + c
-
-    if iterations == 0: iterations = max_iterations
-
-    if iterations < max_iterations:
-        log_zn = np.log(z.real ** 2 + z.imag ** 2) / 2
-        nu = np.log(log_zn / np.log(2)) / np.log(2)
-        iterations = iterations + 1 - nu
-
-    return iterations
-
-def gen_image(image_size, color, max_iterations):
-    image = Image.new("RGB", image_size)
-
-    for pos in list(itertools.product(*[range(k) for k in image_size])):
-        if pos[1] == 0:
-            if pos[0] % 100 == 0:
-                print(str(int(100 * (pos[0] / image_size[0]))) + "%")
-
-        iterations = escape_num(get_c(pos, image_size), max_iterations)
-
-        col1, col2 = color(np.floor(iterations)), color(np.ceil(iterations))
-
-        col = linear_interpolate(col1, col2, iterations - np.floor(iterations))
-
-        image.putpixel(pos, col)
-
-    return image
-
-image = gen_image(image_size, color, max_iterations)
-
-image.save("mandelbrot.png", "PNG")
-
-plt.imshow(image)
-plt.show()
+Mandelbrot.plot(image_size, max_iterations, colors, coordinates)

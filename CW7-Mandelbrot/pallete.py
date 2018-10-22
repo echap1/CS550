@@ -1,10 +1,11 @@
 import colorsys
 
-class Histogram:
-    points = {}
+
+class PointInterpolation:
+    points: []
 
     def __init__(self):
-        pass
+        self.points = []
 
     def __iadd__(self, point: tuple):
         index = point[0]
@@ -15,32 +16,29 @@ class Histogram:
         return self
 
     def __call__(self, index):
-        i = 0
-        p_i = 0
+        after = len([i for i in self.points if i[0] < index])
 
-        for i, v in self.points.items():
-            if i > index: break
+        if after == 0:
+            return self.points[after][1]
 
-            p_i = i
+        point_before = self.points[after - 1]
+        point_after = self.points[after]
 
-        color_before = self.points[p_i]
-        color_after = self.points[i]
+        dif = (index - point_before[0]) / (point_after[0] - point_before[0])
 
-        dif = (index - p_i) / (i - p_i)
-
-        if i - p_i == 0:
-            dif = 0
-
-        return linear_interpolate(color_before, color_after, dif)
+        return linear_interpolate(point_before[1], point_after[1], dif)
 
     def add_color_point(self, index, color):
-        self.points[index] = color
+        self.points += [[index, color]]
+
+        self.points.sort(key=lambda x: x[0])
 
 
 def hsv2rgb(h, s, v):
     return tuple(round(i * 255) for i in colorsys.hsv_to_rgb(h, s, v))
 
-def linear_interpolate(col1, col2, dif):
-    interp = lambda i: int(col2[i] * dif + col1[i] * (1 - dif))
 
-    return (interp(0), interp(1), interp(2))
+def linear_interpolate(col1, col2, dif):
+    def interp(i): return int(col2[i] * dif + col1[i] * (1 - dif))
+
+    return interp(0), interp(1), interp(2)
