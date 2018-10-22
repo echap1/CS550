@@ -3,10 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="6c30f360-7b75-44b4-b1d4-2fde35f5dc0b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CW7-Mandelbrot/mandelbrot.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/CW7-Mandelbrot/mandelbrot.py" beforeDir="false" afterPath="$PROJECT_DIR$/CW7-Mandelbrot/mandelbrot.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CW7-Mandelbrot/pallete.py" beforeDir="false" afterPath="$PROJECT_DIR$/CW7-Mandelbrot/pallete.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PROJ1-Solitaire/._game.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CW7-Mandelbrot/mandelbrot0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CW7-Mandelbrot/mandelbrot1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CW7-Mandelbrot/mandelbrot2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CW7-Mandelbrot/mandelbrot3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CW7-Mandelbrot/mandelbrotCalc.py" beforeDir="false" afterPath="$PROJECT_DIR$/CW7-Mandelbrot/fractalCalc.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -53,42 +55,43 @@
     <session id="418741397">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="46" />
+          <entry key="project.closed" value="49" />
           <entry key="project.open.time.0" value="2" />
           <entry key="project.open.time.3" value="2" />
-          <entry key="project.open.time.4" value="24" />
+          <entry key="project.open.time.4" value="25" />
           <entry key="project.open.time.5" value="16" />
-          <entry key="project.open.time.6" value="7" />
-          <entry key="project.opened" value="51" />
+          <entry key="project.open.time.6" value="8" />
+          <entry key="project.open.time.8" value="1" />
+          <entry key="project.opened" value="54" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="png" value="71" />
+          <entry key="png" value="79" />
           <entry key="ppm" value="1" />
-          <entry key="py" value="180" />
+          <entry key="py" value="181" />
           <entry key="txt" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Image" value="72" />
+          <entry key="Image" value="80" />
           <entry key="PLAIN_TEXT" value="3" />
-          <entry key="Python" value="180" />
+          <entry key="Python" value="181" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="Python Console" value="9966" />
-          <entry key="dummy" value="156" />
-          <entry key="py" value="39049" />
+          <entry key="Python Console" value="10201" />
+          <entry key="dummy" value="168" />
+          <entry key="py" value="40116" />
           <entry key="txt" value="35" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="191" />
-          <entry key="Python" value="49015" />
+          <entry key="PLAIN_TEXT" value="203" />
+          <entry key="Python" value="50317" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
@@ -130,11 +133,28 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/CW7-Mandelbrot/mandelbrot.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="551">
-              <caret line="54" column="1" lean-forward="true" selection-start-line="54" selection-start-column="1" selection-end-line="54" selection-end-column="1" />
+            <state relative-caret-position="319">
+              <caret line="46" column="25" lean-forward="true" selection-start-line="46" selection-start-column="25" selection-end-line="46" selection-end-column="25" />
               <folding>
                 <element signature="e#0#38#0" expanded="true" />
-                <element signature="e#127#1381#0" />
+                <element signature="e#107#1361#0" />
+                <marker date="1540224698988" expanded="true" signature="1378:1380" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CW7-Mandelbrot/fractalCalc.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="780">
+              <caret line="133" selection-start-line="133" selection-end-line="133" />
+              <folding>
+                <element signature="e#0#21#0" expanded="true" />
+                <marker date="1540223770226" expanded="true" signature="184:190" ph="..." />
+                <marker date="1540223770226" expanded="true" signature="1428:1434" ph="..." />
+                <marker date="1540223770226" expanded="true" signature="3060:3079" ph="..." />
+                <marker date="1540223770226" expanded="true" signature="3073:3079" ph="..." />
               </folding>
             </state>
           </provider>
@@ -143,8 +163,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CW7-Mandelbrot/pallete.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="918">
-              <caret line="43" column="42" lean-forward="true" selection-start-line="43" selection-start-column="42" selection-end-line="43" selection-end-column="42" />
+            <state>
+              <caret column="15" selection-start-column="15" selection-end-column="15" />
               <folding>
                 <marker date="1540178867617" expanded="true" signature="59:64" ph="..." />
                 <marker date="1540178867617" expanded="true" signature="147:241" ph="..." />
@@ -160,7 +180,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CW7-Mandelbrot/histogram.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="203">
+            <state relative-caret-position="232">
               <caret line="8" column="32" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
               <folding>
                 <marker date="1540178867606" expanded="true" signature="37:42" ph="..." />
@@ -197,7 +217,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/HW3-Basic-Operations/Question1.py" />
         <option value="$PROJECT_DIR$/HW3-Basic-Operations/Question2.py" />
         <option value="$PROJECT_DIR$/CW2-Unit-Conversion/Sin2Cos2.py" />
         <option value="$PROJECT_DIR$/CW1-Command-Line-Arguments/greeting.py" />
@@ -243,10 +262,11 @@
         <option value="$PROJECT_DIR$/CW7-Mandelbrot/color.py" />
         <option value="$PROJECT_DIR$/CW7-Mandelbrot/histogram.py" />
         <option value="$PROJECT_DIR$/CW7-Mandelbrot/mandelbrot2.py" />
-        <option value="$PROJECT_DIR$/CW7-Mandelbrot/mandelbrotCalc.py" />
         <option value="$PROJECT_DIR$/PROJ1-Solitaire/card.py" />
         <option value="$PROJECT_DIR$/HW5-Number-Game/number.py" />
         <option value="$PROJECT_DIR$/CW7-Mandelbrot/pallete.py" />
+        <option value="$PROJECT_DIR$/CW7-Mandelbrot/mandelbrotCalc.py" />
+        <option value="$PROJECT_DIR$/CW7-Mandelbrot/fractalCalc.py" />
         <option value="$PROJECT_DIR$/CW7-Mandelbrot/mandelbrot.py" />
       </list>
     </option>
@@ -281,6 +301,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -297,7 +318,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -307,15 +327,15 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/Libs" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/CW7-Mandelbrot" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/HW6-Challenge-Questions" />
       <recent name="$PROJECT_DIR$/CW5" />
       <recent name="$PROJECT_DIR$/HW3-Basic-Operations" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Libs" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -412,7 +432,7 @@
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.39590254" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5002967" side_tool="true" weight="0.32945737" />
       <window_info anchor="bottom" id="Inspection Results" order="10" weight="0.32945737" />
-      <window_info anchor="bottom" id="Python Console" order="11" sideWeight="0.49970326" weight="0.337763" />
+      <window_info active="true" anchor="bottom" id="Python Console" order="11" sideWeight="0.49970326" visible="true" weight="0.337763" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -440,78 +460,62 @@
         </breakpoint>
       </default-breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="PythonConfigurationType">
+        <watch expression="iter_array[62]" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
       <expression>
-        <expression-string>sum(self.data[:70])/sum(self.data)</expression-string>
+        <expression-string>self.escape_num(1+3j, 5)</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>sum(self.data[:60])/sum(self.data)</expression-string>
+        <expression-string>self.escape_num(1+3j, 5, 3, 2)</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>sum(self.data[:17])/sum(self.data)</expression-string>
+        <expression-string>self.smooth(1+3j, 5, 3, 2)</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>sum(self.data[:16])/sum(self.data)</expression-string>
+        <expression-string>self.smooth(1+0j, 5, 3, 2)</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>sum(self.data[:15])/sum(self.data)</expression-string>
+        <expression-string>self.smooth(0+0j, 5, 3, 2)</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>sum(self.data[:115])/sum(self.data)</expression-string>
+        <expression-string>self.smooth(0+0j, 5, 2, 2)</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>sum(self.data[:10])/sum(self.data)</expression-string>
+        <expression-string>self.smooth(0+0j, 5, 1, 2)</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>sum(self.data[:9])/sum(self.data)</expression-string>
+        <expression-string>self.smooth(0+0j, 5, 5, 2)</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>sum(self.data[:7])/sum(self.data)</expression-string>
+        <expression-string>self.smooth()</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/HW6-Challenge-Questions/Question2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HW6-Challenge-Questions/Question4.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="377">
-          <caret line="14" column="90" lean-forward="true" selection-start-line="14" selection-start-column="90" selection-end-line="14" selection-end-column="90" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HW6-Challenge-Questions/Question3.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="18" column="92" selection-start-line="18" selection-start-column="92" selection-end-line="18" selection-end-column="92" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/HW6-Challenge-Questions/Question5.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="406">
@@ -704,39 +708,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CW7-Mandelbrot/mandelbrot.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/CW7-Mandelbrot/mandelbrot.png" />
     <entry file="file://$PROJECT_DIR$/CW7-Mandelbrot/mandelbrot3.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/CW7-Mandelbrot/mandelbrot2.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/CW7-Mandelbrot/mandelbrot1.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CW7-Mandelbrot/mandelbrot0.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PROJ1-Solitaire/._game.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CW7-Mandelbrot/mandelbrotCalc.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3451">
-          <caret line="119" selection-start-line="119" selection-end-line="119" />
-          <folding>
-            <element signature="e#0#21#0" expanded="true" />
-            <marker date="1540178460935" expanded="true" signature="212:231" ph="..." />
-            <marker date="1540178460935" expanded="true" signature="1478:1500" ph="..." />
-            <marker date="1540178460935" expanded="true" signature="2057:2063" ph="..." />
-            <marker date="1540178460935" expanded="true" signature="3654:3660" ph="..." />
-            <marker date="1540178460935" expanded="true" signature="3655:3656" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/PROJ1-Solitaire/._game.py" />
     <entry file="file://$PROJECT_DIR$/HW5-Number-Game/number.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="812">
@@ -751,9 +730,21 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/CW7-Mandelbrot/mandelbrot1.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CW7-Mandelbrot/mandelbrot00.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CW7-Mandelbrot/mandelbrot0.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CW7-Mandelbrot/julia1.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/CW7-Mandelbrot/histogram.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
+        <state relative-caret-position="232">
           <caret line="8" column="32" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
           <folding>
             <marker date="1540178867606" expanded="true" signature="37:42" ph="..." />
@@ -764,8 +755,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/CW7-Mandelbrot/pallete.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="918">
-          <caret line="43" column="42" lean-forward="true" selection-start-line="43" selection-start-column="42" selection-end-line="43" selection-end-column="42" />
+        <state>
+          <caret column="15" selection-start-column="15" selection-end-column="15" />
           <folding>
             <marker date="1540178867617" expanded="true" signature="59:64" ph="..." />
             <marker date="1540178867617" expanded="true" signature="147:241" ph="..." />
@@ -777,13 +768,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/CW7-Mandelbrot/fractalCalc.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="780">
+          <caret line="133" selection-start-line="133" selection-end-line="133" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+            <marker date="1540223770226" expanded="true" signature="184:190" ph="..." />
+            <marker date="1540223770226" expanded="true" signature="1428:1434" ph="..." />
+            <marker date="1540223770226" expanded="true" signature="3060:3079" ph="..." />
+            <marker date="1540223770226" expanded="true" signature="3073:3079" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CW7-Mandelbrot/julia0.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/CW7-Mandelbrot/mandelbrot.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="551">
-          <caret line="54" column="1" lean-forward="true" selection-start-line="54" selection-start-column="1" selection-end-line="54" selection-end-column="1" />
+        <state relative-caret-position="319">
+          <caret line="46" column="25" lean-forward="true" selection-start-line="46" selection-start-column="25" selection-end-line="46" selection-end-column="25" />
           <folding>
             <element signature="e#0#38#0" expanded="true" />
-            <element signature="e#127#1381#0" />
+            <element signature="e#107#1361#0" />
+            <marker date="1540224698988" expanded="true" signature="1378:1380" ph="..." />
           </folding>
         </state>
       </provider>
