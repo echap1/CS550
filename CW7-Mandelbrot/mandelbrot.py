@@ -1,5 +1,5 @@
 from pallete import PointInterpolation
-from fractalCalc import Mandelbrot, Julia, Fractal
+from fractalCalc import Mandelbrot, BurningShip, Julia, Fractal
 
 
 def set_colors(image_num):
@@ -44,7 +44,7 @@ image_count = 4
 
 colors = set_colors(image_count)
 
-image_size = (2000, 2000)
+image_size = (1000, 1000)
 max_iterations = 255
 
 coordinates = [
@@ -55,4 +55,4 @@ coordinates = [
 ]
 
 Fractal.plot(Mandelbrot(), image_size, max_iterations, colors, coordinates, lambda i: f"mandelbrot{i}")
-Fractal.plot(Julia(), image_size, max_iterations, colors[0], (-2, -2, 2, 2), lambda i: f"julia{i}")
+Fractal.plot(BurningShip(), image_size, max_iterations, colors[2], Fractal.zoom((-1.762, -0.028), 0.01), lambda i: f"ship{i}")

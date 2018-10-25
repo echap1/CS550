@@ -1,12 +1,14 @@
 import colorsys
 
 
+# Give class color points and iteration values and it turns it into a continuous spectrum
 class PointInterpolation:
     points: []
 
     def __init__(self):
         self.points = []
 
+    # Add a color point: color += (index, (r, g, b))
     def __iadd__(self, point: tuple):
         index = point[0]
         color = point[1]
@@ -15,6 +17,7 @@ class PointInterpolation:
 
         return self
 
+    # Get an interpolated color value for a certain iteration value
     def __call__(self, index):
         after = len([i for i in self.points if i[0] < index])
 
