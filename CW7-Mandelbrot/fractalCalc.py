@@ -12,7 +12,6 @@ from histogram import Histogram
 
 class Fractal:
     h: Histogram
-    pool: multiprocessing.Pool
 
     def __call__(self, image_size, color, max_iterations, c_bounds=(-2, -1.5, 1, 1.5)):
         self.h = Histogram(max_iterations + 1)  # Create empty histogram

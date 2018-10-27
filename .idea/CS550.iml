@@ -24,8 +24,9 @@
       <sourceFolder url="file://$MODULE_DIR$/HW7-Red-Image" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/CW6-Images" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/CW7-Mandelbrot" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/CW8-Classes" isTestSource="false" />
     </content>
-    <orderEntry type="jdk" jdkName="Python 3.6 (1)" jdkType="Python SDK" />
+    <orderEntry type="jdk" jdkName="Python 3.6" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
   <component name="TestRunnerService">

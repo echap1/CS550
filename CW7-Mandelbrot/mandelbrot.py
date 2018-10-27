@@ -44,7 +44,7 @@ image_count = 4
 
 colors = set_colors(image_count)
 
-image_size = (1000, 1000)
+image_size = (512, 512)
 max_iterations = 255
 
 coordinates = [
