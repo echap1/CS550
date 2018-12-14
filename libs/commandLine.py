@@ -60,12 +60,12 @@ class CommandLine:
     def __init__(self, file):
         self.file = file
 
-    def add_argument(self, name, var_type, desc):
+    def add_argument(self, name: str, var_type: Argument, desc: str):
         self.argNames += [name]
         self.argTypes += [var_type]
         self.argDescs += [desc]
 
-    def set_note(self, s):
+    def set_note(self, s: str):
         self.note = s
 
         self.note = "    " + self.note
