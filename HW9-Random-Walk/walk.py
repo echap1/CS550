@@ -40,7 +40,7 @@ Part A: What is the longest walk you can take where you'll be within walking dis
     4 steps of the origin and divide it by the sum of the grid.
 
     Conclusion:
-        The largest value is n=14, with a percent of 67.31128841638565
+        The largest value is n=22, with a percent of 50.93980588580962
 
 Part B: imagine you are throwing darts at a square dartboard, which has a circle perfectly inscribed in the square.
     Let's say the location of the center of the dartboard is 0,0, and the side length of the square is 2, giving the
@@ -106,7 +106,7 @@ def num_in_range(grid, steps):  # Calculate how many routes are within <steps> s
 print("Part A:")
 
 n = 0  # The current number of steps
-allowedSteps = 5  # The allowed number of steps for calculating the percent
+allowedSteps = 4  # The allowed number of steps for calculating the percent
 prev_grid = None  # The grid from the previous calculation (currently none)
 percent = 1  # The percent of walkable routes (currently 1)
 
