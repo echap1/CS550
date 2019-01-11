@@ -7,7 +7,9 @@
   <component name="ChangeListManager">
     <list default="true" id="6c30f360-7b75-44b4-b1d4-2fde35f5dc0b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/CS550.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/CS550.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/other.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/other.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CW11-Coin/coin.py" beforeDir="false" afterPath="$PROJECT_DIR$/CW11-Coin/coin.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,15 +18,39 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/CS550$coin.coverage" NAME="coin Coverage Results" MODIFIED="1546893754556" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/CW11-Coin" />
+    <SUITE FILE_PATH="coverage/CS550$walk__1_.coverage" NAME="walk (1) Coverage Results" MODIFIED="1547169300237" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HW9-Random-Walk" />
+    <SUITE FILE_PATH="coverage/CS550$coin.coverage" NAME="coin Coverage Results" MODIFIED="1547048149735" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/CW11-Coin" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="600">
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/HW9-Random-Walk/walk.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2813">
+              <caret line="136" lean-forward="true" selection-start-line="136" selection-end-line="136" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/HW8-Monty-Hall/monty_hall.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="949">
-              <caret line="40" column="29" lean-forward="true" selection-start-line="40" selection-start-column="29" selection-end-line="40" selection-end-column="29" />
+            <state>
+              <caret selection-end-line="13" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -60,8 +86,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/HW6-Challenge-Questions/Question4.py" />
-        <option value="$PROJECT_DIR$/HW6-Challenge-Questions/Question2.py" />
         <option value="$PROJECT_DIR$/HW6-Challenge-Questions/Question1.py" />
         <option value="$PROJECT_DIR$/HW6-Challenge-Questions/Question5.py" />
         <option value="$PROJECT_DIR$/tests/stringtable.py" />
@@ -109,8 +133,10 @@
         <option value="$PROJECT_DIR$/CW9-Image-Filter/filter.py" />
         <option value="$PROJECT_DIR$/HW4-If-Statements/grade.py" />
         <option value="$PROJECT_DIR$/CW10-Loops-Practice/loops_practice.py" />
-        <option value="$PROJECT_DIR$/CW11-Coin/coin.py" />
         <option value="$PROJECT_DIR$/HW8-Monty-Hall/monty_hall.py" />
+        <option value="$PROJECT_DIR$/CW11-Coin/coin.py" />
+        <option value="$PROJECT_DIR$/CW12-Random-Walk/walk.py" />
+        <option value="$PROJECT_DIR$/HW9-Random-Walk/walk.py" />
       </list>
     </option>
   </component>
@@ -145,6 +171,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -161,7 +188,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -169,7 +195,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="PyScientificConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -197,7 +223,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.monty_hall">
+  <component name="RunManager" selected="Python.walk (1)">
     <configuration name="CS550" type="JupiterNotebook" factoryName="Jupyter Notebook">
       <module name="CS550" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -238,7 +264,26 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="coin" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="walk (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="CS550" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/HW9-Random-Walk" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/HW9-Random-Walk/walk.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="walk" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="CS550" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -246,97 +291,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/CW11-Coin" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/CW12-Random-Walk" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/CW11-Coin/coin.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="filter" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="CS550" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/CW9-Image-Filter" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/CW9-Image-Filter/filter.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="loops_practice" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="CS550" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/CW10-Loops-Practice" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/CW10-Loops-Practice/loops_practice.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="mandelbrot" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="CS550" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/CW7-Mandelbrot" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/CW7-Mandelbrot/mandelbrot.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="monty_hall" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="CS550" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/HW8-Monty-Hall" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/HW8-Monty-Hall/monty_hall.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/CW12-Random-Walk/walk.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -347,19 +307,13 @@
     </configuration>
     <list>
       <item itemvalue="Jupyter Notebook.CS550" />
-      <item itemvalue="Python.filter" />
-      <item itemvalue="Python.loops_practice" />
-      <item itemvalue="Python.mandelbrot" />
-      <item itemvalue="Python.coin" />
-      <item itemvalue="Python.monty_hall" />
+      <item itemvalue="Python.walk" />
+      <item itemvalue="Python.walk (1)" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.monty_hall" />
-        <item itemvalue="Python.coin" />
-        <item itemvalue="Python.mandelbrot" />
-        <item itemvalue="Python.loops_practice" />
-        <item itemvalue="Python.filter" />
+        <item itemvalue="Python.walk (1)" />
+        <item itemvalue="Python.walk" />
       </list>
     </recent_temporary>
   </component>
@@ -377,7 +331,11 @@
       <workItem from="1545064813085" duration="43000" />
       <workItem from="1545064872778" duration="65000" />
       <workItem from="1546877671912" duration="3389000" />
-      <workItem from="1546891611012" duration="2141000" />
+      <workItem from="1546891611012" duration="2855000" />
+      <workItem from="1547003403282" duration="9000" />
+      <workItem from="1547046445186" duration="4471000" />
+      <workItem from="1547165249638" duration="9259000" />
+      <workItem from="1547216789664" duration="2406000" />
     </task>
     <task id="LOCAL-00001" summary="Added HW6">
       <created>1538070741686</created>
@@ -397,7 +355,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5895000" />
+    <option name="totallyTimeSpent" value="22754000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -409,32 +367,31 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="-8" width="3840" height="2088" extended-state="6" />
-    <editor active="true" />
+    <frame x="0" y="-8" width="3414" height="2062" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49961686" visible="true" weight="0.17340426" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49961686" visible="true" weight="0.27474505" />
       <window_info id="Structure" order="1" sideWeight="0.50038314" side_tool="true" weight="0.14154303" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32834995" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4972875" weight="0.273326" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49849308" weight="0.39648545" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4972875" weight="0.27277717" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49849308" weight="0.3961039" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32945737" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32890365" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.3958573" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.3287596" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.395719" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50090414" side_tool="true" weight="0.25977013" />
       <window_info anchor="bottom" id="Inspection Results" order="10" weight="0.32945737" />
-      <window_info active="true" anchor="bottom" id="Python Console" order="11" sideWeight="0.49909583" visible="true" weight="0.3262987" />
+      <window_info active="true" anchor="bottom" id="Python Console" order="11" sideWeight="0.49909583" visible="true" weight="0.35016465" />
       <window_info anchor="bottom" id="Floobits" order="12" weight="0.32894015" />
       <window_info anchor="bottom" id="Docker" order="13" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="14" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Database" order="3" />
-      <window_info anchor="right" id="SciView" order="4" weight="0.50212765" />
+      <window_info anchor="right" id="Database" order="3" weight="0.329934" />
+      <window_info anchor="right" id="SciView" order="4" weight="0.5020996" />
       <window_info anchor="right" id="Coverage" order="5" side_tool="true" />
       <window_info anchor="right" x="0" y="0" width="803" height="1861" id="Documentation" order="6" side_tool="true" weight="0.32973298" />
     </layout>
@@ -509,22 +466,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/CW7-Mandelbrot/julia1.png" />
-    <entry file="file://$PROJECT_DIR$/CW7-Mandelbrot/pallete.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1218">
-          <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CW7-Mandelbrot/histogram.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="6" column="13" lean-forward="true" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/lib/python3.6/multiprocessing/popen_fork.py" />
     <entry file="file://$PROJECT_DIR$/CW7-Mandelbrot/mandelbrot0.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -597,25 +538,11 @@
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/.PyCharmCE2018.2/system/python_stubs/-1247971763/builtins.py" />
-    <entry file="file://$PROJECT_DIR$/PROJ1-Solitaire/card.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/PROJ3-Titanic/mikeTitanic.ipynb" />
     <entry file="file://$PROJECT_DIR$/PROJ3-Titanic/mike.ipynb" />
     <entry file="file://$PROJECT_DIR$/PROJ4-Game/game.py" />
     <entry file="file://$PROJECT_DIR$/PROJ3-Titanic/mike.py" />
     <entry file="file://$PROJECT_DIR$/PROJ3-Titanic/test.ipynb" />
-    <entry file="file://$PROJECT_DIR$/PROJ1-Solitaire/solitaire.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="21" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/CW1-Command-Line-Arguments/greeting.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -630,13 +557,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
           <caret line="67" column="29" selection-start-line="67" selection-start-column="29" selection-end-line="67" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CW7-Mandelbrot/fractalCalc.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="18" selection-start-line="26" selection-start-column="18" selection-end-line="26" selection-end-column="18" />
         </state>
       </provider>
     </entry>
@@ -712,10 +632,48 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/HW3-Basic-Operations/question2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="5" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PROJ1-Solitaire/game.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="657">
+          <caret line="224" selection-start-line="224" selection-end-line="224" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PROJ1-Solitaire/display.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3142">
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PROJ1-Solitaire/card.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1808">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PROJ1-Solitaire/solitaire.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="9" column="3" lean-forward="true" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CW12-Random-Walk/__init__.py" />
     <entry file="file://$PROJECT_DIR$/CW11-Coin/coin.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="4" column="7" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
+        <state relative-caret-position="464">
+          <caret line="16" column="27" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
           </folding>
@@ -729,17 +687,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HW3-Basic-Operations/question2.py">
+    <entry file="file://$PROJECT_DIR$/CW7-Mandelbrot/fractalCalc.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="5" selection-end-column="3" />
+        <state relative-caret-position="390">
+          <caret line="26" column="18" selection-start-line="26" selection-start-column="18" selection-end-line="26" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HW9-Random-Walk/walk.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2813">
+          <caret line="136" lean-forward="true" selection-start-line="136" selection-end-line="136" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/HW8-Monty-Hall/monty_hall.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="949">
-          <caret line="40" column="29" lean-forward="true" selection-start-line="40" selection-start-column="29" selection-end-line="40" selection-end-column="29" />
+        <state>
+          <caret selection-end-line="13" selection-end-column="3" />
         </state>
       </provider>
     </entry>
