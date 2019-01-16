@@ -112,7 +112,7 @@ percent = 1  # The percent of walkable routes (currently 1)
 
 percents = []
 
-for n in range(100):
+for n in range(500):
     # Get the grid for this iteration (using the previous grid if there is one)
     if prev_grid is None:
         grid = get_grid(n)
@@ -130,7 +130,7 @@ for n in range(100):
     prev_grid = grid  # Update the previous grid
 
 for n in range(len(percents) - 1, -1, -1):
-    if percents[n] > 0.5:
+    if percents[n] > 0.05:
         print(f"\n    Largest Solution: n={n}, {percents[n] * 100}% walkable\n")
         break
 

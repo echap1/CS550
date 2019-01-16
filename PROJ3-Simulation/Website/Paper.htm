@@ -1,0 +1,160 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+	<title></title>
+	<meta name="generator" content="LibreOffice 6.0.7.3 (Linux)"/>
+	<meta name="created" content="2019-01-15T15:37:33.429542056"/>
+	<meta name="changed" content="2019-01-16T11:28:19.112928572"/>
+	<style type="text/css">
+		@page { margin: 0.79in }
+		p { margin-bottom: 0.1in; line-height: 115% }
+		a:link { so-language: zxx }
+	</style>
+</head>
+<body lang="en-US" dir="ltr">
+<p style="margin-bottom: 0in; line-height: 100%"><font face="Ubuntu Mono">Say
+you wanted a way to calculate pi. A process that all a person needs
+to know how to do is to count the amount of time something happens.
+Consider the following: there are two blocks on a surface, with a
+wall to the left of them.</font></p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p align="center" style="margin-bottom: 0in; line-height: 100%"><img src="Thing_htm_674f7c975ef830fc.gif" name="Image1" align="bottom" width="480" height="159" border="0"/>
+</p>
+<p align="center" style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><font face="Ubuntu Mono">If
+we send block 2 towards block 1, how many collisions (no friction)
+will there be in the system. The animation for this is fairly simple:</font></p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p align="center" style="margin-bottom: 0in; line-height: 100%"><img src="Thing_htm_2e9532047e0e21b3.gif" name="Image2" align="bottom" width="480" height="160" border="0"/>
+</p>
+<p align="center" style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><font face="Ubuntu Mono">Using
+this animation, we are able to see that there are 3 collisions. The
+math behind this is fairly simple. We just run the simulation until
+the objects collide, and then we use the equations for elastic
+collisions</font></p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p align="center" style="margin-bottom: 0in; line-height: 100%"><img src="Thing_htm_c2bbd9490ef835a5.gif" name="Object1" hspace="8" width="109" height="108"/>
+</p>
+<p align="center" style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><font face="Ubuntu Mono">But,
+these equations are in the reference frame of block #2, so we need to
+convert them to a stationary point of view.</font></p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p align="center" style="margin-bottom: 0in; line-height: 100%"><img src="Thing_htm_323fa55a443dae0a.gif" name="Object2" hspace="8" width="171" height="108"/>
+</p>
+<p align="left" style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p align="left" style="margin-bottom: 0in; line-height: 100%"><font face="Ubuntu Mono">Now,
+we can use these equations to solve for the velocities after
+collision, and continue running our simulation. We also have to deal
+with #1 colliding into the wall, which is fairly straightforward. All
+we have to do is flip the direction of the velocity.</font></p>
+<p align="left" style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p align="left" style="margin-bottom: 0in; line-height: 100%"><font face="Ubuntu Mono">The
+number of collisions if the mass of block #2 is 1kg is 3. But what if
+the mass is 100?</font></p>
+<p align="left" style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p align="center" style="margin-bottom: 0in; line-height: 100%"><img src="Thing_htm_f3eabe1329966f0f.gif" name="Image3" align="bottom" width="480" height="159" border="0"/>
+</p>
+<p align="left" style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p align="left" style="margin-bottom: 0in; line-height: 100%"><font face="Ubuntu Mono">As
+you can see, there are 31 collisions. What about 10000?</font></p>
+<p align="left" style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p align="center" style="margin-bottom: 0in; line-height: 100%"><img src="Thing_htm_a7f262b5674c6f70.gif" name="Image4" align="bottom" width="480" height="159" border="0"/>
+</p>
+<p align="left" style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p align="left" style="margin-bottom: 0in; line-height: 100%"><font face="Ubuntu Mono">There
+are 313 collisions. And for 1000000?</font></p>
+<p align="left" style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p align="center" style="margin-bottom: 0in; line-height: 100%"><img src="Thing_htm_5fb9274ab498699f.gif" name="Image5" align="bottom" width="480" height="159" border="0"/>
+</p>
+<p align="center" style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p align="left" style="margin-bottom: 0in; line-height: 100%"><font face="Ubuntu Mono">There
+are 3141 collisions. You may be able to guess the value if the mass
+of #2 is 100000000.</font></p>
+<p align="left" style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p align="center" style="margin-bottom: 0in; line-height: 100%"><img src="Thing_htm_7ac15c81dd913b05.gif" name="Image6" align="bottom" width="480" height="159" border="0"/>
+</p>
+<p align="left" style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p align="left" style="margin-bottom: 0in; line-height: 100%"><font face="Ubuntu Mono">Yep.
+It’s 31415. In case you don’t see the pattern, the number of
+collisions is giving us the digits of pi. It follows this formula:</font></p>
+<p align="left" style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p align="center" style="margin-bottom: 0in; line-height: 100%"><img src="Thing_htm_b76719a7d69c0e1f.gif" name="Object3" hspace="8" width="189" height="43"/>
+</p>
+<p align="left" style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p align="left" style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p align="left" style="margin-bottom: 0in; line-height: 100%"><font face="Ubuntu Mono">We
+can use this to calculate pi:</font></p>
+<p align="left" style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p align="center" style="margin-bottom: 0in; line-height: 100%"><img src="Thing_htm_262df5b5a0e89154.gif" name="Object4" hspace="8" width="406" height="44"/>
+</p>
+<p align="center" style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p align="left" style="margin-bottom: 0in; line-height: 100%"><font face="Ubuntu Mono">There.
+We went from two blocks and a wall to the digits of pi, and all we
+had to do  is count the number of collisions. This gets better and
+better the heavier m2 gets, as shown in this graph.</font></p>
+<p align="left" style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p align="center" style="margin-bottom: 0in; line-height: 100%"><img src="Thing_htm_b095ba05b11c68aa.png" name="Image7" align="bottom" width="480" height="360" border="0"/>
+</p>
+<p align="left" style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p align="left" style="margin-bottom: 0in; line-height: 100%"><font face="Ubuntu Mono">However,
+this method of calculation very quickly becomes impossible to
+replicate. First off, you need a system with no friction and
+perfectly elastic collisions, which is already basically impossible.
+Additionally, to calculate just 12 digits of pi, you would need an
+object with mass 10<sup>24 </sup>kg, which is equal to the mass of
+the Earth. You would also need a way to count the collisions without
+introducing any friction. The point is, this is a very impractical,
+but interesting, way to calculate pi.</font></p>
+</body>
+</html>

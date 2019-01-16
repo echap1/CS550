@@ -33,6 +33,7 @@
       <sourceFolder url="file://$MODULE_DIR$/CW11-Coin" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/HW8-Monty-Hall" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/HW9-Random-Walk" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/PROJ3-Simulation" isTestSource="false" />
     </content>
     <orderEntry type="jdk" jdkName="Python 3.6" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
