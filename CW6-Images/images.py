@@ -28,3 +28,5 @@ def fuzzy(lines, w=1000, h=1000):
     image.save("fuzzy.png", "PNG")
 
     open("fuzzy.png")
+
+    

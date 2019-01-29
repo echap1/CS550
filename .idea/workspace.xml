@@ -7,9 +7,8 @@
   <component name="ChangeListManager">
     <list default="true" id="6c30f360-7b75-44b4-b1d4-2fde35f5dc0b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/CS550.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/CS550.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HW9-Random-Walk/walk.py" beforeDir="false" afterPath="$PROJECT_DIR$/HW9-Random-Walk/walk.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CW6-Images/images.py" beforeDir="false" afterPath="$PROJECT_DIR$/CW6-Images/images.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,6 +18,7 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/CS550$walk__1_.coverage" NAME="walk (1) Coverage Results" MODIFIED="1547169300237" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HW9-Random-Walk" />
+    <SUITE FILE_PATH="coverage/CS550$superperm.coverage" NAME="superperm Coverage Results" MODIFIED="1548728971440" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
     <SUITE FILE_PATH="coverage/CS550$simulation.coverage" NAME="simulation Coverage Results" MODIFIED="1547520751019" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PROJ3-Simulation" />
     <SUITE FILE_PATH="coverage/CS550$coin.coverage" NAME="coin Coverage Results" MODIFIED="1547048149735" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/CW11-Coin" />
     <SUITE FILE_PATH="coverage/CS550$plots.coverage" NAME="plots Coverage Results" MODIFIED="1547428955308" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PROJ3-MatPlot" />
@@ -40,31 +40,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="600">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/libs/commandLine.py">
+        <entry file="file://$PROJECT_DIR$/PROJ4-PTable/examples.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1468">
-              <caret line="137" column="30" selection-start-line="137" selection-start-column="30" selection-end-line="137" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PROJ1-Solitaire/solitaire.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="174">
-              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+            <state relative-caret-position="6641">
+              <caret line="229" column="31" selection-start-line="229" selection-start-column="31" selection-end-line="229" selection-end-column="31" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/PROJ3-Simulation/simulation.py">
+        <entry file="file://$PROJECT_DIR$/tests/superperm.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-5782">
-              <caret line="15" column="18" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
-              <folding>
-                <element signature="e#162#194#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="2958">
+              <caret line="102" column="18" selection-start-line="102" selection-start-column="18" selection-end-line="102" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -106,9 +94,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/HW3-Basic-Operations/question1.py" />
-        <option value="$PROJECT_DIR$/HW3-Basic-Operations/question2.py" />
-        <option value="$PROJECT_DIR$/HW3-Basic-Operations/question3.py" />
         <option value="$PROJECT_DIR$/libs/varInput.py" />
         <option value="$PROJECT_DIR$/HW7-Minesweeper/mines.py" />
         <option value="$PROJECT_DIR$/tests/getch.py" />
@@ -119,7 +104,6 @@
         <option value="$PROJECT_DIR$/PROJ2-Minesweeper/mines.py" />
         <option value="$PROJECT_DIR$/HW7-Red-Image/image.py" />
         <option value="$PROJECT_DIR$/CW6-Images/image.py" />
-        <option value="$PROJECT_DIR$/CW6-Images/images.py" />
         <option value="$PROJECT_DIR$/CW7-Mandelbrot/images.py" />
         <option value="$PROJECT_DIR$/CW7-Mandelbrot/color.py" />
         <option value="$PROJECT_DIR$/CW7-Mandelbrot/mandelbrot2.py" />
@@ -157,6 +141,10 @@
         <option value="$PROJECT_DIR$/PROJ3-MatPlot/movie.py" />
         <option value="$PROJECT_DIR$/PROJ3-MatPlot/csv_import.py" />
         <option value="$PROJECT_DIR$/PROJ3-Simulation/simulation.py" />
+        <option value="$PROJECT_DIR$/PROJ4-PTable/example.csv" />
+        <option value="$PROJECT_DIR$/CW6-Images/images.py" />
+        <option value="$PROJECT_DIR$/PROJ4-PTable/examples.py" />
+        <option value="$PROJECT_DIR$/tests/superperm.py" />
       </list>
     </option>
   </component>
@@ -190,7 +178,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -201,33 +188,19 @@
             <path>
               <item name="CS550" type="b2602c69:ProjectViewProjectNode" />
               <item name="CS550" type="462c0819:PsiDirectoryNode" />
-              <item name="CW6-Images" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CS550" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CS550" type="462c0819:PsiDirectoryNode" />
-              <item name="libs" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CS550" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CS550" type="462c0819:PsiDirectoryNode" />
-              <item name="PROJ1-Solitaire" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CS550" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CS550" type="462c0819:PsiDirectoryNode" />
-              <item name="PROJ3-Simulation" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///media/OneDrive/OneDrive/Coding/CS550/CW7-Mandelbrot/pallete.py" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/PROJ3-MatPlot/movies.csv" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.smartKeys" />
@@ -258,7 +231,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.simulation">
+  <component name="RunManager" selected="Python.superperm">
     <configuration name="CS550" type="JupiterNotebook" factoryName="Jupyter Notebook">
       <module name="CS550" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -291,6 +264,28 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="examples" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="CS550" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PROJ4-PTable" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PROJ4-PTable/examples.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -343,6 +338,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="superperm" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="CS550" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tests/superperm.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="walk" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="CS550" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -367,16 +384,19 @@
     </configuration>
     <list>
       <item itemvalue="Jupyter Notebook.CS550" />
-      <item itemvalue="Python.walk" />
       <item itemvalue="Python.plots" />
       <item itemvalue="Python.simulation" />
+      <item itemvalue="Python.walk" />
+      <item itemvalue="Python.examples" />
+      <item itemvalue="Python.superperm" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.superperm" />
+        <item itemvalue="Python.examples" />
         <item itemvalue="Python.simulation" />
         <item itemvalue="Python.simulation" />
         <item itemvalue="Python.plots" />
-        <item itemvalue="Python.walk" />
       </list>
     </recent_temporary>
   </component>
@@ -409,6 +429,13 @@
       <workItem from="1547594619622" duration="614000" />
       <workItem from="1547647008918" duration="1797000" />
       <workItem from="1547652989930" duration="3036000" />
+      <workItem from="1547758781394" duration="3000" />
+      <workItem from="1547775507456" duration="71000" />
+      <workItem from="1548384892621" duration="2898000" />
+      <workItem from="1548429998876" duration="435000" />
+      <workItem from="1548691111731" duration="4207000" />
+      <workItem from="1548720060620" duration="1710000" />
+      <workItem from="1548721782494" duration="7349000" />
     </task>
     <task id="LOCAL-00001" summary="Added HW6">
       <created>1538070741686</created>
@@ -428,7 +455,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="59121000" />
+    <option name="totallyTimeSpent" value="75794000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -440,15 +467,15 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="-8" width="3414" height="2062" extended-state="6" />
+    <frame x="0" y="-8" width="3840" height="2088" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49712643" visible="true" weight="0.15146971" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49712643" visible="true" weight="0.16462766" />
       <window_info id="Structure" order="1" sideWeight="0.50287354" side_tool="true" weight="0.2930851" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32792208" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4972875" weight="0.27277717" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49849308" weight="0.26673985" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49849308" weight="0.26623377" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32945737" />
@@ -456,7 +483,7 @@
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.39556277" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5018617" side_tool="true" weight="0.35010824" />
       <window_info anchor="bottom" id="Inspection Results" order="10" weight="0.32945737" />
-      <window_info anchor="bottom" id="Python Console" order="11" sideWeight="0.4981383" weight="0.23593074" />
+      <window_info active="true" anchor="bottom" id="Python Console" order="11" sideWeight="0.4981383" visible="true" weight="0.29220778" />
       <window_info anchor="bottom" id="Floobits" order="12" weight="0.3284632" />
       <window_info anchor="bottom" id="Docker" order="13" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="14" show_stripe_button="false" />
@@ -499,83 +526,58 @@
     </expressions>
     <expressions id="evaluateExpression">
       <expression>
-        <expression-string>abs(v1) &lt; v2</expression-string>
+        <expression-string>num_false_starting_with()</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>0 &lt;= abs(v1)</expression-string>
+        <expression-string>vals_starting_with((1,), covered)</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>0 &lt;= abs(v1) &lt; v2</expression-string>
+        <expression-string>false_starting_with((1,), covered)</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>[i for i in ratings_array if i[1] == '1077']</expression-string>
+        <expression-string>diff((3,2,1), (1,2))</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>[i for i in ratings_array if i[1] == '1076']</expression-string>
+        <expression-string>vals_starting_with((2,1), covered)</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>[i for i in ratings_array if i[1] == '1']</expression-string>
+        <expression-string>vals_starting_with((1,2), covered)</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>[i for i in ratings_array if i[2] == '1']</expression-string>
+        <expression-string>vals_starting_with((1), covered)</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>[i for i in ratings_array if i[2] == '1080']</expression-string>
+        <expression-string>(1,2,3,4,5)[:3]</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>[i for i in ratings_array if i[2] == '10780']</expression-string>
+        <expression-string>(1,2,3,4,5)[:2]</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>(1,2,3,4,5)[:1]</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/libs/color.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="319">
-          <caret line="11" column="12" lean-forward="true" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HW7-Red-Image/mod.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/stringtable.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="7" column="35" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.PyCharmCE2018.2/system/python_stubs/-1247971763/builtins.py" />
-    <entry file="file://$PROJECT_DIR$/PROJ3-Titanic/mikeTitanic.ipynb" />
-    <entry file="file://$PROJECT_DIR$/PROJ3-Titanic/mike.ipynb" />
-    <entry file="file://$PROJECT_DIR$/PROJ4-Game/game.py" />
-    <entry file="file://$PROJECT_DIR$/PROJ3-Titanic/mike.py" />
-    <entry file="file://$PROJECT_DIR$/PROJ3-Titanic/test.ipynb" />
-    <entry file="file://$PROJECT_DIR$/CW1-Command-Line-Arguments/greeting.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="13" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/CW3-Continuous-Interest/interest.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -727,15 +729,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/PROJ3-Simulation/a.gif" />
-    <entry file="file://$PROJECT_DIR$/CW6-Images/images.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#21#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/HW7-Red-Image/redImage.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="638">
@@ -762,6 +755,44 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/PROJ4-PTable/example.csv">
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" rowLines="3" />
+      </provider>
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="522">
+          <caret line="18" column="43" selection-start-line="18" selection-start-column="43" selection-end-line="18" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/3/builtins.pyi">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="869" column="8" selection-start-line="869" selection-start-column="8" selection-end-line="869" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2018.3/system/python_stubs/-1247971763/builtins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="599">
+          <caret line="346" column="5" selection-start-line="346" selection-start-column="5" selection-end-line="346" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.local/lib/python3.6/site-packages/prettytable/prettytable.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="182" column="34" lean-forward="true" selection-start-line="182" selection-start-column="34" selection-end-line="182" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libs/commandLine.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3857">
+          <caret line="137" column="30" selection-start-line="137" selection-start-column="30" selection-end-line="137" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/PROJ1-Solitaire/solitaire.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="174">
@@ -771,18 +802,63 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/PROJ3-Simulation/simulation.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-5782">
-          <caret line="15" column="18" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
+        <state relative-caret-position="957">
+          <caret line="37" selection-start-line="37" selection-end-line="37" />
           <folding>
             <element signature="e#162#194#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/libs/commandLine.py">
+    <entry file="file://$PROJECT_DIR$/CW6-Images/images.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1468">
-          <caret line="137" column="30" selection-start-line="137" selection-start-column="30" selection-end-line="137" selection-end-column="30" />
+        <state relative-caret-position="899">
+          <caret line="31" column="4" lean-forward="true" selection-start-line="31" selection-start-column="4" selection-end-line="31" selection-end-column="4" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PROJ4-PTable/examples.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6641">
+          <caret line="229" column="31" selection-start-line="229" selection-start-column="31" selection-end-line="229" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_bundle/pydev_umd.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="197" selection-start-line="197" selection-end-line="197" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.local/lib/python3.6/site-packages/IPython/core/interactiveshell.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92539">
+          <caret line="3266" selection-start-line="3266" selection-end-line="3266" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevd.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3870">
+          <caret line="1570" column="13" lean-forward="true" selection-start-line="1570" selection-start-column="13" selection-end-line="1570" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/superperm.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2958">
+          <caret line="102" column="18" selection-start-line="102" selection-start-column="18" selection-end-line="102" selection-end-column="18" />
         </state>
       </provider>
     </entry>
